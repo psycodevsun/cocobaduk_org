@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- 홈페이지 -->
   <url>
-    <loc>https://example.com/</loc>
-    <lastmod>2024-12-30</lastmod>
+    <loc>https://cocobaduk.org/</loc>
+    <lastmod>2025-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://cocobaduk.org/images/54b878c7ed332ae64c79b4d9eb942cd5.png</image:loc>
+      <image:title>코코바둑 온라인 바둑학원</image:title>
+      <image:caption>바둑으로 두뇌 발달, 집중력 향상</image:caption>
+    </image:image>
   </url>
+
 </urlset>
