@@ -19,7 +19,7 @@ export default function Testimonials() {
             <p className="text-gray-600">수업 후, 우리 아이에게 꼭 맞는 반을 정확하게 편성해드립니다.</p>
           </div>
         </div>
-        
+
         <div className="bg-white p-4 md:p-8 rounded-2xl shadow-lg mb-12 max-w-5xl mx-auto">
           <h3 className="text-2xl font-bold text-center mb-8">
             이런 분들께 특히 추천합니다!
@@ -34,7 +34,7 @@ export default function Testimonials() {
             ))}
           </div>
         </div>
-        
+
         <div className="text-center">
           <div className="bg-teal-600 text-white p-4 md:p-8 rounded-2xl max-w-5xl mx-auto">
             <div className="mb-6">
