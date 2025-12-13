@@ -9,8 +9,7 @@ export default function WhyOnline() {
         "45~50분 집중 수업 후 바로 복습 가능 → 시간 낭비 없이 몰입도 높은 수업",
         "아이의 컨디션에 맞춰 편한 시간에 수업 선택 가능 → 학부모님도, 아이도 편안한 학습 환경"
       ],
-      icon: "ri-time-line",
-      color: "bg-blue-50 border-blue-200"
+      color: "bg-teal-50 border-teal-200"
     },
     {
       number: "2",
@@ -20,8 +19,7 @@ export default function WhyOnline() {
         "최신 AI 학습 시스템으로 혼자서도 퀴즈와 연습 가능 → 수업 + 복습까지 완벽 설계",
         "오프라인에선 대국만 하고 끝나는 경우도 많지만, → 온라인은 이론, 사고력 훈련, 복기까지 철저히 진행"
       ],
-      icon: "ri-video-line",
-      color: "bg-green-50 border-green-200"
+      color: "bg-teal-50 border-teal-200"
     },
     {
       number: "3",
@@ -31,8 +29,7 @@ export default function WhyOnline() {
         "바둑 경력 20년, 수많은 유단자를 배출한 윤정희 원장님의 1:1 맞춤 지도로 진행",
         "전국 어디서든, 똑같은 고퀄리티 수업을 받습니다"
       ],
-      icon: "ri-focus-3-line",
-      color: "bg-purple-50 border-purple-200"
+      color: "bg-teal-50 border-teal-200"
     },
     {
       number: "4",
@@ -42,46 +39,37 @@ export default function WhyOnline() {
         "선택하고, 책임지는 힘이 생겼어요",
         "질문이 많아졌고, 스스로 생각하려는 태도가 생겼어요"
       ],
-      icon: "ri-heart-line",
-      color: "bg-orange-50 border-orange-200"
+      color: "bg-teal-50 border-teal-200"
     }
   ];
 
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-            <i className="ri-computer-line mr-3 text-blue-600"></i>
-            왜 요즘 학부모님들은 온라인 바둑학원을 선택할까요?
+        <div className="text-center mb-12">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight">
+            왜 요즘 학부모님들은<br className="md:hidden" /> 온라인 바둑학원을 선택할까요?
           </h2>
         </div>
-        
-        <div className="space-y-16">
+
+        <div className="space-y-6 max-w-5xl mx-auto">
           {reasons.map((reason, index) => (
-            <div key={index} className={`border-2 ${reason.color} p-8 rounded-2xl`}>
-              <div className="flex items-start space-x-6">
+            <div key={index} className={`border-2 ${reason.color} p-6 md:p-8 rounded-2xl`}>
+              <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 hidden md:block">
-                  <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg">
-                    <span className="text-2xl font-bold text-blue-600">{reason.number}</span>
+                  <div className="w-12 h-12 bg-teal-600 text-white rounded-full flex items-center justify-center font-bold text-xl">
+                    {reason.number}
                   </div>
                 </div>
-                
-                <div className="flex-1">
-                  <div className="flex items-center mb-6">
-                    <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold mr-3 md:hidden">
-                      {reason.number}
-                    </div>
-                    <i className={`${reason.icon} text-2xl text-blue-600 mr-3`}></i>
-                    <h3 className="text-xl md:text-2xl font-bold text-gray-800">{reason.title}</h3>
-                  </div>
-                  
-                  <div className="space-y-4">
+
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-4">{reason.title}</h3>
+
+                  <div className="space-y-3">
                     {reason.points.map((point, pointIndex) => (
-                      <div key={pointIndex} className="flex items-start">
-                        <i className="ri-check-line text-green-500 mr-3 mt-1 flex-shrink-0"></i>
-                        <p className="text-gray-700 leading-relaxed">{point}</p>
-                      </div>
+                      <p key={pointIndex} className="text-gray-700 text-sm md:text-base leading-relaxed pl-0">
+                        • {point}
+                      </p>
                     ))}
                   </div>
                 </div>
@@ -89,25 +77,24 @@ export default function WhyOnline() {
             </div>
           ))}
         </div>
-        
-        <div className="mt-16 bg-blue-50 p-8 rounded-2xl">
+
+        <div className="mt-12 bg-teal-50 p-6 md:p-8 rounded-2xl max-w-5xl mx-auto">
           <div className="text-center">
-            <h3 className="text-2xl font-bold text-blue-800 mb-4">
-              <i className="ri-brain-line mr-2"></i>
+            <h3 className="text-xl md:text-2xl font-bold text-teal-800 mb-6">
               바둑은 아이의 '두뇌 습관'을 바꿉니다
             </h3>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
-              <div className="flex items-center justify-center p-4 bg-white rounded-lg">
-                <span className="text-gray-700">문제를 스스로 풀고</span>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
+              <div className="flex items-center justify-center p-3 md:p-4 bg-white rounded-lg">
+                <span className="text-gray-700 text-sm md:text-base">문제를 스스로 풀고</span>
               </div>
-              <div className="flex items-center justify-center p-4 bg-white rounded-lg">
-                <span className="text-gray-700">감정을 다스리고</span>
+              <div className="flex items-center justify-center p-3 md:p-4 bg-white rounded-lg">
+                <span className="text-gray-700 text-sm md:text-base">감정을 다스리고</span>
               </div>
-              <div className="flex items-center justify-center p-4 bg-white rounded-lg">
-                <span className="text-gray-700">선택의 책임을 이해하고</span>
+              <div className="flex items-center justify-center p-3 md:p-4 bg-white rounded-lg">
+                <span className="text-gray-700 text-sm md:text-base">선택의 책임을 이해하고</span>
               </div>
-              <div className="flex items-center justify-center p-4 bg-white rounded-lg">
-                <span className="text-gray-700">복기하며 성찰하는 습관까지</span>
+              <div className="flex items-center justify-center p-3 md:p-4 bg-white rounded-lg">
+                <span className="text-gray-700 text-sm md:text-base">복기하며 성찰하는 습관까지</span>
               </div>
             </div>
           </div>

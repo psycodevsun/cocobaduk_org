@@ -15,10 +15,10 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-12 md:h-16">
           {/* 로고 */}
           <div className="flex items-center">
-            <span className="text-2xl font-black text-gray-800" style={{ fontFamily: 'Gothic, sans-serif' }}>
+            <span className="text-xl md:text-2xl font-black text-gray-800" style={{ fontFamily: 'Gothic, sans-serif' }}>
               코코바둑
             </span>
           </div>
