@@ -12,7 +12,7 @@ export default function Testimonials() {
     <section className="py-20" style={{ backgroundColor: '#F8EEE2' }}>
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
-          <div className="bg-white p-8 rounded-2xl shadow-lg inline-block mb-8">
+          <div className="bg-white p-8 rounded-2xl shadow-lg max-w-5xl mx-auto mb-8">
             <h3 className="text-3xl font-bold text-gray-800 mb-4">60분 체험수업</h3>
             <p className="text-lg text-gray-600 mb-4">1:1 대국 + 실력 진단 + 상담까지</p>
             <div className="text-4xl font-bold text-yellow-600 mb-4">단 30,000원</div>
@@ -20,16 +20,15 @@ export default function Testimonials() {
           </div>
         </div>
         
-        <div className="bg-white p-8 rounded-2xl shadow-lg mb-12">
+        <div className="bg-white p-8 rounded-2xl shadow-lg mb-12 max-w-5xl mx-auto">
           <h3 className="text-2xl font-bold text-center mb-8">
-            <i className="ri-search-line mr-2 text-blue-600"></i>
             이런 분들께 특히 추천합니다!
           </h3>
-          
+
           <div className="grid md:grid-cols-2 gap-4">
             {targetAudience.map((item, index) => (
-              <div key={index} className="flex items-center p-4 bg-blue-50 rounded-lg">
-                <i className="ri-check-line text-blue-600 mr-3 flex-shrink-0"></i>
+              <div key={index} className="flex items-center p-4 bg-teal-50 rounded-lg">
+                <span className="text-teal-600 mr-3 flex-shrink-0">•</span>
                 <span className="text-gray-700">{item}</span>
               </div>
             ))}
@@ -37,7 +36,7 @@ export default function Testimonials() {
         </div>
         
         <div className="text-center">
-          <div className="bg-blue-600 text-white p-8 rounded-2xl">
+          <div className="bg-teal-600 text-white p-8 rounded-2xl max-w-5xl mx-auto">
             <div className="mb-6">
               <h2 className="text-2xl font-bold" style={{fontFamily: 'Pacifico, serif'}}>
                 코코 바둑 온라인 바둑학원
