@@ -34,10 +34,12 @@ export default function Hero() {
               </button>
             </div>
 
-            <a href="tel:010-6753-8985" className="inline-flex items-center gap-3 text-teal-600 hover:text-teal-700 transition-colors">
-              <i className="ri-phone-fill text-3xl"></i>
-              <span className="text-3xl lg:text-4xl font-bold">010-6753-8985</span>
-            </a>
+            <div className="text-center lg:text-left">
+              <a href="tel:010-6753-8985" className="inline-flex items-center gap-3 text-teal-600 hover:text-teal-700 transition-colors">
+                <i className="ri-phone-fill text-3xl"></i>
+                <span className="text-3xl lg:text-4xl font-bold">010-6753-8985</span>
+              </a>
+            </div>
           </div>
 
           {/* 모바일 이미지 */}
