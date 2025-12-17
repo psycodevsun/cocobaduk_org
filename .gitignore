@@ -42,3 +42,7 @@ Thumbs.db
 
 # Auto-generated
 auto-imports.d.ts
+
+# Claude Code
+CLAUDE.md
+.claude/
