@@ -60,7 +60,7 @@ export default {
         title: '1.25rem',
         ui: '1.5rem',
         body: '1.6rem',
-        caption: '0.8rem',
+        caption: '1.5rem',
       },
       },
     },
