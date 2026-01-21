@@ -69,7 +69,7 @@ export default function WhyOnline() {
                 <div className="flex-1 min-w-0">
                   <h3 className="text-xl md:text-2xl lg:text-xl font-bold text-primary-emphasis tracking-title leading-title mb-5">{reason.title}</h3>
 
-                  <div className="space-y-3">
+                  <div>
                     {reason.points.map((point, pointIndex) => (
                       <p
                         key={pointIndex}
