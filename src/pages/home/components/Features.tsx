@@ -3,13 +3,13 @@ export default function Features() {
   return (
     <section id="features" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-gray-900">
-            왜 <span className="text-teal-600">코코바둑</span>을 선택하시나요?
+        <div className="text-center mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold mb-2 tracking-title">
+            학생과 학부모가 <span className="text-primary-emphasis">선택</span>한 코코바둑
           </h2>
 
-          <p className="text-xl text-gray-700 leading-relaxed mb-8">
-            15년간 9,500명의 학생들과 함께한 검증된 온라인 바둑 교육
+          <p className="text-lg md:text-xl lg:text-lg tracking-body leading-relaxed mb-2">
+            장기간 검증된 집중력·사고력 중심 온라인 바둑 교육
           </p>
         </div>
 
@@ -26,12 +26,12 @@ export default function Features() {
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {/* 1:1 맞춤 수업 - 사진3 */}
           <div className="bg-white rounded-xl p-4 md:p-8 shadow-lg hover:shadow-xl transition-shadow text-center">
-            <h3 className="text-lg md:text-xl font-bold mb-2">1:1 맞춤 수업 / 1:2 정규 수업</h3>
-            <p className="text-teal-600 font-medium mb-3 text-sm md:text-base">개별 맞춤형 지도</p>
+            <h3 className="text-2xl md:text-xl lg:text-lg text-primary-emphasis font-bold tracking-title mb-2">개별 맞춤형 지도</h3>
+            <p className="text-base text-primary-muted mb-3 text-sm md:text-base tracking-body">#성향분석 #개별진도</p>
             <ul className="space-y-1 md:space-y-2 text-left">
-              <li className="text-gray-700 text-sm md:text-base">• 학생별 맞춤 진도 관리</li>
-              <li className="text-gray-700 text-sm md:text-base">• 개인 성향 분석 후 수업</li>
-              <li className="text-gray-700 text-sm md:text-base">• 선생님과 1대1 지도대국</li>
+              <li className="text-gray-700 text-sm md:text-base tracking-body">• 학생별 수준과 속도에 맞춘 진도 관리</li>
+              <li className="text-gray-700 text-sm md:text-base tracking-body">• 개인 성향 분석 후 맞춤 수업 진행</li>
+              <li className="text-gray-700 text-sm md:text-base tracking-body">• 선생님과 1:1 지도 대국</li>
             </ul>
 
             <div className="mt-4 md:mt-6">
@@ -45,12 +45,12 @@ export default function Features() {
 
           {/* 누적 지도 학생수 - 사진4 */}
           <div className="bg-white rounded-xl p-4 md:p-8 shadow-lg hover:shadow-xl transition-shadow text-center">
-            <h3 className="text-lg md:text-xl font-bold mb-2">누적 지도 학생수 9,500명+</h3>
-            <p className="text-teal-600 font-medium mb-3 text-sm md:text-base">검증된 교육 경험</p>
+            <h3 className="text-2xl md:text-xl lg:text-lg text-primary-emphasis font-bold tracking-title mb-2">교육 경험 기반 시스템</h3>
+            <p className="text-base text-primary-muted mb-3 text-sm md:text-base tracking-body">#누적학생 #9,500명+</p>
             <ul className="space-y-1 md:space-y-2 text-left">
-              <li className="text-gray-700 text-sm md:text-base">• 15년간 축적된 노하우</li>
-              <li className="text-gray-700 text-sm md:text-base">• 연령별 특성 파악</li>
-              <li className="text-gray-700 text-sm md:text-base">• 체계적인 실력 향상 시스템</li>
+              <li className="text-gray-700 text-sm md:text-base tracking-body">• 다년간 축적된 교육 노하우</li>
+              <li className="text-gray-700 text-sm md:text-base tracking-body">• 연령별·단계별 학습 특성 분석</li>
+              <li className="text-gray-700 text-sm md:text-base tracking-body">• 체계적인 실력 향상 시스템</li>
             </ul>
 
             <div className="mt-4 md:mt-6">
@@ -64,12 +64,12 @@ export default function Features() {
 
           {/* 수업 만족도 - 사진5 */}
           <div className="bg-white rounded-xl p-4 md:p-8 shadow-lg hover:shadow-xl transition-shadow text-center">
-            <h3 className="text-lg md:text-xl font-bold mb-2">수업 만족도 9.8</h3>
-            <p className="text-teal-600 font-medium mb-3 text-sm md:text-base">높은 학부모 만족도</p>
+            <h3 className="text-2xl md:text-xl lg:text-lg text-primary-emphasis font-bold tracking-title mb-2">학부모가 체감한 변화</h3>
+            <p className="text-base text-primary-muted mb-3 text-sm md:text-base tracking-body">#만족도9.8</p>
             <ul className="space-y-1 md:space-y-2 text-left">
-              <li className="text-gray-700 text-sm md:text-base">• 학부모 98% 재수강</li>
-              <li className="text-gray-700 text-sm md:text-base">• 친구 추천율 95%</li>
-              <li className="text-gray-700 text-sm md:text-base">• 실력 향상 보장</li>
+              <li className="text-gray-700 text-sm md:text-base tracking-body">• 학부모 98% 재수강</li>
+              <li className="text-gray-700 text-sm md:text-base tracking-body">• 친구 추천율 95%</li>
+              <li className="text-gray-700 text-sm md:text-base tracking-body">• 눈에 보이는 성장 변화</li>
             </ul>
 
             <div className="mt-4 md:mt-6">
@@ -82,12 +82,22 @@ export default function Features() {
           </div>
         </div>
 
-        <div className="text-center mt-12">
-          <p className="text-xl font-bold text-gray-800 mb-2">
-            바둑을 처음 배울수록, 전문 원장님의 맞춤형 수업은 필수입니다.
+        <div className="text-center mt-10">
+          <span className="inline-block px-10 py-2 rounded-full bg-primary-emphasis">
+            <p className="text-xl font-bold tracking-body text-white">
+              바둑을 처음 배울수록, 아이에게 맞는 시작이 중요합니다.
+            </p>
+          </span>
+        </div>
+        <div className="text-center mt-2">
+          <p className="text-lg tracking-body">
+            아이의 변화를 직접 경험해보세요.
           </p>
-          <p className="text-lg text-gray-600">
-            체계적인 커리큘럼과 개인별 맞춤 지도로 확실한 실력 향상을 약속드립니다.
+        </div>
+
+        <div className="text-center mt-8">
+          <p className="text-sm tracking-body text-neutral-900 mb-2">
+            ※ 누적 지도 학생수, 재수강율, 추천율은 내부 운영 데이터 기준(2011년~2025년)입니다.
           </p>
         </div>
       </div>

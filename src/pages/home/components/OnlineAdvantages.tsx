@@ -7,28 +7,27 @@ export default function OnlineAdvantages() {
     },
     {
       icon: 'ri-computer-line',
-      title: 'PC만 있으면 참여 OK'
+      title: 'PC만 있으면 OK, 별도 장비 없이 바로 참여'
     },
     {
       icon: 'ri-time-line',
-      title: '아침 9시 ~ 밤 11시, 원하는 시간대에 편하게 수업 배정'
+      title: '오전 9시 ~ 밤 11시, 원하는 시간대에 수업 배정'
     },
     {
       icon: 'ri-calendar-check-line',
-      title: '학부모님의 일정에 맞춘 유연한 운영'
+      title: '학부모 일정에 맞춘 유연한 수업 운영'
     }
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-surface-warm">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-2">
-            <i className="ri-earth-line mr-3 text-teal-600"></i>
-            언제 어디서든 가능한
+          <h2 className="text-3xl md:text-4xl mb-2 tracking-title">
+            집에서 편하게
           </h2>
-          <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-            온라인 수업
+          <h2 className="text-3xl md:text-4xl font-bold tracking-title mb-6">
+            원하는 시간에 배우는 온라인바둑
           </h2>
         </div>
 
@@ -45,12 +44,12 @@ export default function OnlineAdvantages() {
           {/* 4개 박스 오른쪽 */}
           <div className="grid grid-cols-1 gap-4">
             {advantages.map((advantage, index) => (
-              <div key={index} className="flex items-center space-x-4 p-6 bg-teal-50 rounded-xl">
-                <div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <i className={`${advantage.icon} text-xl text-teal-600`}></i>
+              <div key={index} className="flex items-center space-x-4 p-6 bg-white rounded-xl">
+                <div className="w-10 h-10 bg-primary-emphasis rounded-full flex items-center justify-center flex-shrink-0">
+                  <i className={`${advantage.icon} text-xl text-white`}></i>
                 </div>
                 <div>
-                  <p className="text-lg font-medium text-gray-800">{advantage.title}</p>
+                  <p className="text-lg tracking-body">{advantage.title}</p>
                 </div>
               </div>
             ))}

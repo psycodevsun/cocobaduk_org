@@ -18,38 +18,44 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-12 md:h-16">
           {/* 로고 */}
           <div className="flex items-center">
-            <span className="text-xl md:text-2xl font-black text-gray-800" style={{ fontFamily: 'Gothic, sans-serif' }}>
+            <span className="text-xl md:text-2xl font-black" style={{ fontFamily: 'Gothic, sans-serif' }}>
               코코바둑
             </span>
           </div>
 
           {/* 데스크톱 메뉴 */}
           <div className="hidden md:flex items-center space-x-8">
-            <button 
+            {/*<button 
               onClick={() => scrollToSection('home')}
               className="text-gray-700 hover:text-teal-600 font-medium transition-colors cursor-pointer"
             >
               홈
-            </button>
+            </button>*/}
             <button 
               onClick={() => scrollToSection('features')}
-              className="text-gray-700 hover:text-teal-600 font-medium transition-colors cursor-pointer"
+              className="bg-transparent text-ghost hover:text-ghost-hover tracking-button px-4 py-2 font-bold transition-colors"
             >
-              특징
+              학원소개
             </button>
             <button 
-              onClick={() => scrollToSection('instructor')}
-              className="text-gray-700 hover:text-teal-600 font-medium transition-colors cursor-pointer"
+              onClick={() => scrollToSection('#')}
+              className="bg-transparent text-ghost hover:text-ghost-hover tracking-button px-4 py-2 font-bold transition-colors"
             >
-              강사소개
+              수업안내
             </button>
             <button 
               onClick={() => scrollToSection('curriculum')}
-              className="text-gray-700 hover:text-teal-600 font-medium transition-colors cursor-pointer"
+              className="bg-transparent text-ghost hover:text-ghost-hover tracking-button px-4 py-2 font-bold transition-colors"
             >
               커리큘럼
             </button>
             <button 
+              onClick={() => scrollToSection('instructor')}
+              className="bg-transparent text-ghost hover:text-ghost-hover tracking-button px-4 py-2 font-bold transition-colors"
+            >
+              강사소개
+            </button>
+            {/*<button 
               onClick={() => scrollToSection('pricing')}
               className="text-gray-700 hover:text-teal-600 font-medium transition-colors cursor-pointer"
             >
@@ -60,9 +66,9 @@ export default function Navbar() {
               className="text-gray-700 hover:text-teal-600 font-medium transition-colors cursor-pointer"
             >
               후기
-            </button>
-            <button className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-2 rounded-lg font-medium transition-colors cursor-pointer whitespace-nowrap">
-              체험수업 신청
+            </button>*/}
+            <button className="bg-primary text-primary-foreground hover:bg-primary-hover tracking-button px-6 py-2 rounded-lg font-bold transition-colors cursor-pointer">
+              상담신청
             </button>
           </div>
 
@@ -70,7 +76,7 @@ export default function Navbar() {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-700 hover:text-teal-600 transition-colors cursor-pointer"
+              className="hover:text-primary-hover transition-colors cursor-pointer"
             >
               <i className={`ri-${isMenuOpen ? 'close' : 'menu'}-line text-2xl`}></i>
             </button>
@@ -81,45 +87,39 @@ export default function Navbar() {
         {isMenuOpen && (
           <div className="md:hidden bg-white border-t border-gray-200">
             <div className="py-4 space-y-2">
-              <button 
+              {/*<button 
                 onClick={() => scrollToSection('home')}
                 className="block w-full text-left px-4 py-2 text-gray-700 hover:text-teal-600 hover:bg-gray-50 transition-colors cursor-pointer"
               >
                 홈
-              </button>
+              </button>*/}
               <button 
                 onClick={() => scrollToSection('features')}
-                className="block w-full text-left px-4 py-2 text-gray-700 hover:text-teal-600 hover:bg-gray-50 transition-colors cursor-pointer"
+                className="block w-full text-left px-4 py-2 hover:text-primary-hover hover:bg-gray-50 transition-colors cursor-pointer"
               >
-                특징
+                학원소개
               </button>
               <button 
-                onClick={() => scrollToSection('instructor')}
-                className="block w-full text-left px-4 py-2 text-gray-700 hover:text-teal-600 hover:bg-gray-50 transition-colors cursor-pointer"
+                onClick={() => scrollToSection('#')}
+                className="block w-full text-left px-4 py-2 hover:text-primary-hover hover:bg-gray-50 transition-colors cursor-pointer"
               >
-                강사소개
+                수업안내
               </button>
               <button 
                 onClick={() => scrollToSection('curriculum')}
-                className="block w-full text-left px-4 py-2 text-gray-700 hover:text-teal-600 hover:bg-gray-50 transition-colors cursor-pointer"
+                className="block w-full text-left px-4 py-2 hover:text-primary-hover hover:bg-gray-50 transition-colors cursor-pointer"
               >
                 커리큘럼
-              </button>
+              </button>  
               <button 
-                onClick={() => scrollToSection('pricing')}
-                className="block w-full text-left px-4 py-2 text-gray-700 hover:text-teal-600 hover:bg-gray-50 transition-colors cursor-pointer"
+                onClick={() => scrollToSection('instructor')}
+                className="block w-full text-left px-4 py-2 hover:text-primary-hover hover:bg-gray-50 transition-colors cursor-pointer"
               >
-                수강료
-              </button>
-              <button 
-                onClick={() => scrollToSection('reviews')}
-                className="block w-full text-left px-4 py-2 text-gray-700 hover:text-teal-600 hover:bg-gray-50 transition-colors cursor-pointer"
-              >
-                후기
+                강사소개
               </button>
               <div className="px-4 py-2">
-                <button className="w-full bg-teal-500 hover:bg-teal-600 text-white px-4 py-2 rounded-lg font-medium transition-colors cursor-pointer whitespace-nowrap">
-                  체험수업 신청
+                <button className="w-full bg-primary text-primary-foreground hover:bg-primary-hover tracking-button px-4 py-2 rounded-lg font-medium transition-colors cursor-pointer whitespace-nowrap">
+                  상담신청
                 </button>
               </div>
             </div>
