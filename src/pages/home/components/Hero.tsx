@@ -1,62 +1,62 @@
 
 export default function Hero() {
   return (
-    <section id="home" className="relative min-h-[600px] lg:h-[600px] text-gray-800 flex items-center overflow-hidden pt-16 pb-8 lg:pb-0" style={{ backgroundColor: '#F8EEE2' }}>
+    <section id="home" className="relative min-h-[520px] md:h-[750px] lg:h-[600px] text-gray-800 flex items-center overflow-hidden pt-16 pb-0 lg:pb-8 bg-surface-warm">
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 w-full">
+      <div className="relative z-10 max-w-7xl mx-auto md:px-8 w-full">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center h-full">
-          <div className="text-left">
-            <div className="mb-4">
-              <h1 className="text-3xl lg:text-5xl font-bold mb-2 leading-tight">
-                온라인 프리미엄 <span className="text-teal-500">바둑학원</span>
-              </h1>
-            </div>
-
-            <div className="mb-4">
-              <h2 className="text-2xl lg:text-3xl font-bold mb-4 text-gray-700">
-                코코바둑
+          <div className="text-left z-99">
+            <div className="px-6 md:px-0 mt-5 lg:mt-0 mb-1 md:mb-3">
+              <h2 className="text-2xl md:text-3xl tracking-title mb-2">
+                온라인 No.1 코코바둑
               </h2>
             </div>
 
-            <p className="text-lg lg:text-xl mb-6 leading-relaxed text-gray-700">
-              집중력 · 판단력 · 사고력 성장<br />
-              1:1 맞춤 수업 / 1:2 소수정예 수업 선택 가능
+            <div className="px-6 md:px-0 mb-4 md:mb-6 lg:mb-8">
+              <h1 className="text-4xl  md:text-5xl lg:text-5xl font-bold tracking-title mb-3 leading-tight tracking-body">
+                바둑으로 집중력이 <span className="text-primary-emphasis">쑥쑥</span>
+              </h1>
+            </div>
+
+            <p className="px-6 md:px-0 text-lg md:text-xl lg:text-lg mb-2 leading-relaxed tracking-body">
+              집중력 · 판단력 · 수리력 성장을 한 번에
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 mb-6">
-              <a href="tel:010-6753-8985" className="bg-teal-500 hover:bg-teal-600 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors cursor-pointer whitespace-nowrap text-center">
+            {/*<div className="flex flex-col sm:flex-row gap-3 mb-2">
+              <a href="tel:010-6753-8985" className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-2 rounded-lg font-bold text-lg transition-colors cursor-pointer whitespace-nowrap text-center">
                 <i className="ri-phone-fill mr-2"></i>
                 체험수업 신청하기
               </a>
-              <button className="border-2 border-teal-500 text-teal-500 hover:bg-teal-500 hover:text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors cursor-pointer whitespace-nowrap">
+              <button className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-1 rounded-lg font-bold text-lg transition-colors cursor-pointer whitespace-nowrap">
                 <i className="ri-message-3-fill mr-2"></i>
                 카카오톡 상담
               </button>
-            </div>
+            </div>*/}
 
-            <div className="text-center lg:text-left">
-              <a href="tel:010-6753-8985" className="inline-flex items-center gap-3 text-teal-600 hover:text-teal-700 transition-colors">
-                <i className="ri-phone-fill text-3xl"></i>
-                <span className="text-3xl lg:text-4xl font-bold">010-6753-8985</span>
+            {/*<div className="text-center lg:text-left">
+              <a href="tel:010-6753-8985" className="inline-flex items-center gap-3 text-gray-600 hover:text-gray-800 transition-colors">
+                <i className="ri-phone-fill text-2xl"></i>
+                <span className="text-xl lg:text-xl">010-6753-8985</span>
               </a>
-            </div>
+            </div>*/}
+          
           </div>
 
           {/* 모바일 이미지 */}
-          <div className="flex lg:hidden justify-center items-center">
+          <div className="w-full lg:hidden">
             <img
-              src="/upimg/1.jpg"
+              src="/upimg/12.jpg"
               alt="바둑 교육 이미지"
-              className="w-full max-w-md rounded-xl shadow-lg object-cover"
+              className="w-full h-full object-cover scale-[1.2]"
             />
           </div>
 
           {/* PC 이미지 */}
-          <div className="hidden lg:flex justify-center items-center h-full">
+          <div className="hidden lg:flex justify-center items-center h-full pt-14">
             <img
-              src="/images/54b878c7ed332ae64c79b4d9eb942cd5.png"
+              src="/upimg/12.jpg"
               alt="바둑 교육 이미지"
-              className="w-full h-full object-cover scale-[1.35]"
+              className="w-full h-full object-cover scale-[1.55]"
             />
           </div>
         </div>

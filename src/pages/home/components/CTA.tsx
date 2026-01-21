@@ -4,28 +4,29 @@ export default function CTA() {
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-8">
-            온라인 바둑 교육의<br className="md:hidden" /> <span className="text-teal-600">새로운 기준</span>
+          <h2 className="text-3xl md:text-4xl font-bold mb-2 tracking-title">
+            온라인 바둑 교육의 새로운 기준
           </h2>
+          <p className="text-xl lg:text-lg tracking-body mb-8">체험 수업으로 직접 확인하세요</p>
 
           {/* 체험수업 받고 판단하세요 섹션 */}
-          <div className="flex justify-center mb-12">
+          {/*<div className="flex justify-center mb-12">
             <div className="bg-amber-100 inline-flex items-center px-6 py-3 rounded-full">
               <i className="ri-gift-line text-2xl text-amber-600 mr-3"></i>
-              <span className="text-xl font-bold text-amber-800">체험 수업 받고 판단하세요!</span>
+              <span className="text-xl font-bold text-amber-800">체험 수업으로 직접 확인하세요</span>
             </div>
-          </div>
+          </div>*/}
 
           {/* 맞춤 상담 */}
-          <div className="bg-white rounded-xl shadow-lg p-4 md:p-8 max-w-5xl mx-auto">
-            <div className="bg-teal-100 inline-flex items-center px-6 py-3 rounded-full mb-6">
+          <div className="bg-white rounded-xl shadow-lg py-20 max-w-5xl mx-auto">
+            {/*<div className="bg-teal-100 inline-flex items-center px-6 py-3 rounded-full mb-6">
               <i className="ri-customer-service-2-line text-2xl text-teal-600 mr-3"></i>
               <span className="text-xl font-bold text-teal-800">1:1 맞춤 체험수업</span>
-            </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">1:1 맞춤 체험수업</h3>
+            </div>*/}
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">1:1 맞춤 체험수업 50% 할인</h3>
 
             {/* 가격 정보 */}
-            <div className="mb-6">
+            {/*<div className="mb-6">
               <div className="flex items-center justify-center mb-2">
                 <span className="text-gray-400 line-through text-lg mr-3">60,000원</span>
                 <span className="text-3xl font-bold text-teal-600">30,000원</span>
@@ -34,10 +35,14 @@ export default function CTA() {
                 <i className="ri-fire-line mr-2"></i>
                 <span className="font-bold">50% 할인 이벤트 진행!</span>
               </div>
-            </div>
+            </div>*/}
 
-            <p className="text-gray-600 text-lg leading-relaxed mb-6">
+            <p className="text-gray-600 text-sm leading-relaxed mb-4">
               학습 목표와 현재 상황에 맞는 개인별 맞춤 상담 제공
+            </p>
+
+            <p className="text-gray-600 text-ld font-bold leading-relaxed mb-4">
+              정가 60,000원 → <span className="text-teal-600">체험가 30,000원(당일 등록시 무료)</span>
             </p>
 
             <a href="tel:010-6753-8985" className="inline-block bg-teal-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-teal-700 transition-colors whitespace-nowrap cursor-pointer">
