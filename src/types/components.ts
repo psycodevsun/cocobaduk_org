@@ -2,7 +2,7 @@ import type { HTMLAttributes, ButtonHTMLAttributes, ImgHTMLAttributes } from 're
 import type { WithChildren, WithClassName, WithId, BackgroundVariant } from './common';
 
 // Section
-export interface SectionProps extends WithChildren, WithClassName, WithId, HTMLAttributes<HTMLElement> {
+export interface SectionProps extends WithClassName, WithId, HTMLAttributes<HTMLElement> {
   background?: BackgroundVariant;
   ariaLabelledby?: string;
 }
@@ -28,7 +28,7 @@ export interface CardProps extends WithChildren, WithClassName {
 }
 
 // Button
-export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>, WithChildren, WithClassName {
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>, WithClassName {
   variant?: 'primary' | 'secondary' | 'ghost' | 'cta';
   size?: 'small' | 'default' | 'large';
   fullWidth?: boolean;
