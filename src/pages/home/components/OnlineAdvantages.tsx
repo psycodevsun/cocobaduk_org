@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import { Section, Container, Image, Icon } from '@/components/ui';
+import { Section, Container, Image} from '@/components/ui';
 import { ADVANTAGES } from '@/constants';
 
 const OnlineAdvantages = memo(function OnlineAdvantages() {

@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import { Section, Container, Card, Grid, Image } from '@/components/ui';
+import { Section, Container, Image } from '@/components/ui';
 import { TARGET_AUDIENCE } from '@/constants';
 
 const Testimonials = memo(function Testimonials() {

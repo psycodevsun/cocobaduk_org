@@ -1,6 +1,5 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Features from './components/Features';
 import Reviews from './components/Reviews';
 import Instructor from './components/Instructor';
 import OnlineAdvantages from './components/OnlineAdvantages';
