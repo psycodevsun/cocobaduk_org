@@ -20,7 +20,7 @@ const Consultation = memo(function consultation() {
 
           <div className='text-right mb-4 tracking-tighter'>
             <p className='text-[#bbbab8] font-semibold line-through'>60,000원</p>
-            <h5 className='text-[##fff35d] text-3xl font-bold max-md:text-xl'>30,000원</h5>
+            <h5 className='text-[#fff35d] text-3xl font-bold max-md:text-xl'>30,000원</h5>
           </div>
         </div>
 
