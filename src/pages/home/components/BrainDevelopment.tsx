@@ -52,7 +52,7 @@ const BrainDevelopment = memo(function BrainDevelopment() {
   }, []);
 
   return (
-    <Section background="primary" ariaLabelledby="brain-development-title" className='bg-[url(/upimg/9-1.jpg)] bg-no-repeat bg-contain bg-bottom bg-[#eaf3f6] max-md:bg-none max-md:pb-0'>
+    <Section background="primary" ariaLabelledby="brain-development-title" className='bg-[url(/upimg/9-1.jpg)] bg-no-repeat bg-contain bg-bottom bg-[#eaf3f6] max-md:bg-none max-md:pb-0 max-md:pt-14'>
       <Container className='max-md:p-0'>
         <div className="text-center mb-6 max-md:px-7">
           <h2 id="brain-development-title" className="text-3xl md:text-4xl mb-2 tracking-title max-md:mb-0">

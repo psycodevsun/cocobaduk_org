@@ -4,9 +4,9 @@ import { INSTRUCTORS } from '@/constants';
 
 const Instructor = memo(function Instructor() {
   return (
-    <Section id="instructor" background="gray" ariaLabelledby="instructor-title">
+    <Section id="instructor" background="gray" ariaLabelledby="instructor-title" className='max-md:pt-14'>
       <Container>
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 max-md:mb-10">
           <h2 id="instructor-title" className="text-3xl md:text-4xl font-normal mb-2 tracking-title">
             원장 직강
           </h2>

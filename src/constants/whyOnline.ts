@@ -3,7 +3,7 @@ import type { WhyOnlineReason } from '@/types';
 export const WHY_ONLINE_REASONS: WhyOnlineReason[] = [
   {
     number: '1',
-    title: '이동시간은 줄이고, 집중은 수업에만',
+    title: `이동시간은 줄이고, 집중은 수업에만`,
     points: [
       '학원 이동 없이 집에서 바로 시작하는 온라인 바둑수업',
       '아이 혼자 집중하는 환경으로, 수업에만 온전히 몰입',
@@ -15,7 +15,7 @@ export const WHY_ONLINE_REASONS: WhyOnlineReason[] = [
   },
   {
     number: '2',
-    title: '온라인 바둑수업, 왜 실력이 더 빠르게 오를까요?',
+    title: `온라인 바둑수업, <br class="hidden max-md:block"/>왜 실력이 더 빠르게 오를까요?`,
     points: [
       '실시간 1:1 대국으로  즉각적인 피드백',
       '아이 표정·시선·마우스 움직임까지 한눈에 확인',
@@ -26,7 +26,7 @@ export const WHY_ONLINE_REASONS: WhyOnlineReason[] = [
   },
   {
     number: '3',
-    title: '반포에서 정원 마감으로 검증된 수업',
+    title: `반포에서 정원 마감으로 검증된 수업`,
     points: [
       '반포에서 늘 정원 마감되던 수업을 이제',
       '집에서 그대로 경험합니다.',
@@ -38,7 +38,7 @@ export const WHY_ONLINE_REASONS: WhyOnlineReason[] = [
   },
   {
     number: '4',
-    title: '승부욕이 강한 우리 아이, 바둑으로 이렇게 달라졌어요',
+    title: `승부욕이 강한 우리 아이, <br class="hidden max-md:block"/>바둑으로 이렇게 달라졌어요`,
     points: [
       '지는 순간 울고 화내던 아이가',
       '이제는 감정을 가라앉히고 어디를 고치면 될지 생각합니다.',

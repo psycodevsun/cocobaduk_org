@@ -4,10 +4,10 @@ import { CURRICULUM_DATA } from '@/constants';
 
 const Curriculum = memo(function Curriculum() {
   return (
-    <Section id="curriculum" background="white" ariaLabelledby="curriculum-title" className='pb-0'>
+    <Section id="curriculum" background="white" ariaLabelledby="curriculum-title" className='pb-0 max-md:pt-14'>
       <Container size='wide' className='p-0 rounded-none'>
-        <div className="text-center mb-12">
-          <h2 id="curriculum-title" className="text-3xl md:text-4xl tracking-title mb-6">
+        <div className="text-center mb-12 max-md:mb-0">
+          <h2 id="curriculum-title" className="text-3xl md:text-4xl tracking-title mb-6 max-md:mb-2">
             실력별 <span className="font-bold">성장 커리큘럼</span>
           </h2>
         </div>

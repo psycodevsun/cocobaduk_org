@@ -4,9 +4,9 @@ import { ADVANTAGES } from '@/constants';
 
 const OnlineAdvantages = memo(function OnlineAdvantages() {
   return (
-    <Section background="warm" ariaLabelledby="online-advantages-title" className='relative max-md:pt-20 max-md:pb-0'>
+    <Section background="warm" ariaLabelledby="online-advantages-title" className='relative max-md:pb-0 max-md:pt-14'>
       <Container className='max-md:p-0'>
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 max-md:mb-6">
           <h2 id="online-advantages-title" className="text-3xl md:text-4xl mb-2 tracking-title">
             집에서 편하게
           </h2>
@@ -26,13 +26,13 @@ const OnlineAdvantages = memo(function OnlineAdvantages() {
             {ADVANTAGES.map((advantage, index) => (
               <div
                 key={index}
-                className="flex items-center space-x-4 p-6 bg-white rounded-xl max-md:items-start z-10"
+                className="flex items-center space-x-4 p-6 bg-white rounded-xl max-md:items-start z-10 max-md:p-3"
               >
-                <div className="w-10 h-10 bg-primary-emphasis rounded-full flex items-center justify-center flex-shrink-0 text-white font-bold max-md:w-5 max-md:h-5 max-md:mt-1">
+                <div className="w-10 h-10 bg-primary-emphasis rounded-full flex items-center justify-center flex-shrink-0 text-white font-bold max-md:w-5 max-md:h-5 max-md:mt-1 max-md:font-normal max-md:text-xs">
                   {index + 1}
                 </div>
                 <div>
-                  <p className="text-lg tracking-body break-keep font-semibold" dangerouslySetInnerHTML={{ __html: advantage.title }}/>
+                  <p className="text-lg tracking-body break-keep font-semibold max-md:font-normal leading-1" dangerouslySetInnerHTML={{ __html: advantage.title }}/>
                 </div>
               </div>
             ))}
