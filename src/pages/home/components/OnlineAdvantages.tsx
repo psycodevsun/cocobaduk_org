@@ -32,7 +32,7 @@ const OnlineAdvantages = memo(function OnlineAdvantages() {
                   {index + 1}
                 </div>
                 <div>
-                  <p className="text-lg tracking-body break-keep" dangerouslySetInnerHTML={{ __html: advantage.title }}/>
+                  <p className="text-lg tracking-body break-keep font-semibold" dangerouslySetInnerHTML={{ __html: advantage.title }}/>
                 </div>
               </div>
             ))}

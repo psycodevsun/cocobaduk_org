@@ -19,7 +19,7 @@ const WhyOnline = memo(function WhyOnline() {
                 <Image src={reason.image} alt='이미지'/>
               </div>
 
-              <div key={index} className={`${reason.color} p-6 md:p-8 rounded-2xl min-h-[210px] max-md:min-h-0`}>
+              <div key={index} className={`${reason.color} p-6 md:p-8 rounded-2xl min-h-[230px] max-md:min-h-0`}>
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0">
                     <div className="w-10 h-10 bg-primary-emphasis text-white rounded-full flex items-center justify-center font-bold text-2xl max-md:h-7 max-md:w-7 max-md:text-base">

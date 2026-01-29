@@ -6,6 +6,11 @@ export const SITE_INFO: SiteInfo = {
   phoneDisplay: '010-6325-8985',
 };
 
+export const MOVE_TOP = {
+  id : 'home',
+  label : '코코바둑',
+}
+
 export const TRIAL_LESSON = {
   originalPrice: 60000,
   discountedPrice: 30000,

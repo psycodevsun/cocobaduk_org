@@ -1,7 +1,7 @@
 import { memo, useCallback } from 'react';
 import { Button, Icon } from '@/components/ui';
 import { useScrollToSection, useMobileMenu } from '@/hooks';
-import { NAV_ITEMS, SITE_INFO } from '@/constants';
+import { MOVE_TOP, NAV_ITEMS, SITE_INFO } from '@/constants';
 
 const Navbar = memo(function Navbar() {
   const scrollToSection = useScrollToSection();
@@ -25,7 +25,14 @@ const Navbar = memo(function Navbar() {
               className="text-xl md:text-2xl font-black"
               style={{ fontFamily: 'Gothic, sans-serif' }}
             >
-              {SITE_INFO.name}
+              <Button
+                key={MOVE_TOP.id}
+                variant="ghost"
+                onClick={() => handleNavClick(MOVE_TOP.id)}
+                aria-label={`${MOVE_TOP.label} 섹션으로 이동`}
+              >
+                {MOVE_TOP.label}
+              </Button>
             </span>
           </div>
 

@@ -64,7 +64,7 @@ const BrainDevelopment = memo(function BrainDevelopment() {
           </h3>
         </div>
         <div className="text-center mb-10 max-md:px-7">
-          <span className="inline-block px-8 py-2 rounded-full bg-primary-emphasis">
+          <span className="inline-block px-8 py-1 rounded-full bg-primary-emphasis">
             <p className="text-base md:text-lg lg:text-base md:font-bold tracking-body text-white break-keep">
               생각하고 판단하는 힘을 키우는 수업, 바로 코코바둑의 교육 방식입니다
             </p>
@@ -100,15 +100,15 @@ const BrainDevelopment = memo(function BrainDevelopment() {
               {/* 데이터 영역 */}
               <path
                 d={chartData.dataPath}
-                fill="#2864a0"
+                fill="#6294bd"
                 fillOpacity={0.3}
-                stroke="#2864a0"
+                stroke="#6294bd"
                 strokeWidth="2"
               />
 
               {/* 데이터 포인트 */}
               {chartData.dataPoints.map((point, i) => (
-                <circle key={i} cx={point.x} cy={point.y} r="5" fill="#2864a0" />
+                <circle key={i} cx={point.x} cy={point.y} r="5" fill="#6294bd" />
               ))}
 
               {/* 라벨 */}
@@ -119,7 +119,7 @@ const BrainDevelopment = memo(function BrainDevelopment() {
                   y={chartData.labelPoints[i].y}
                   textAnchor="middle"
                   dominantBaseline="middle"
-                  className="text-xs font-bold fill-[#2864a0]"
+                  className="text-xs font-black fill-[#2864a0]"
                   style={{ fontSize: '12px' }}
                 >
                   {ability.name}
