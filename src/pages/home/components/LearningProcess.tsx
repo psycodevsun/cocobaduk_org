@@ -22,20 +22,20 @@ const LearningProcess = memo(function LearningProcess() {
                     STEP {step.step}
                   </span>
                 </div>
-                <h3 className="text-xl lg:text-2xl font-bold text-primary-emphasis tracking-title mb-7">
+                <h3 className="text-xl lg:text-2xl font-bold text-primary-emphasis tracking-tight mb-7">
                   {step.title}
                 </h3>
                 <div>
-                  <p className="tracking-body mb-7">{step.description}</p>
+                  <p className="tracking-tight mb-7">{step.description}</p>
                   {step.step === 1 && (
                     <>
                       <div className="mb-7">
-                        <p className="tracking-body">{step.details[0]}</p>
-                        <p className="tracking-body">{step.details[1]}</p>
+                        <p className="tracking-tight">{step.details[0]}</p>
+                        <p className="tracking-tight">{step.details[1]}</p>
                       </div>
                       <div className="mb-3">
-                        <p className="tracking-body">{step.details[2]}</p>
-                        <p className="tracking-body">{step.details[3]}</p>
+                        <p className="tracking-tight">{step.details[2]}</p>
+                        <p className="tracking-tight">{step.details[3]}</p>
                       </div>
                     </>
                   )}
@@ -44,12 +44,12 @@ const LearningProcess = memo(function LearningProcess() {
                       <ul className="mb-7">
                         {step.details.slice(0, 3).map((detail, idx) => (
                           <li key={idx} className="flex items-start">
-                            <span className="tracking-body mr-2">·</span>
+                            <span className="tracking-tight mr-2">·</span>
                             <span>{detail}</span>
                           </li>
                         ))}
                       </ul>
-                      <p className="tracking-body mb-3">{step.details[3]}</p>
+                      <p className="tracking-tight mb-3">{step.details[3]}</p>
                     </>
                   )}
                   {step.step === 3 && (
@@ -57,13 +57,13 @@ const LearningProcess = memo(function LearningProcess() {
                       <ul className="mb-7">
                         {step.details.slice(0, 3).map((detail, idx) => (
                           <li key={idx} className="flex items-start">
-                            <span className="tracking-body mr-2">{detail}</span>
+                            <span className="tracking-tight mr-2">{detail}</span>
                           </li>
                         ))}
                       </ul>
                       <div className="mb-3">
-                        <p className="tracking-body">아이의 성장 속도에 맞춰</p>
-                        <p className="tracking-body">가장 적합한 반으로 배정합니다.</p>
+                        <p className="tracking-tight">아이의 성장 속도에 맞춰</p>
+                        <p className="tracking-tight">가장 적합한 반으로 배정합니다.</p>
                       </div>
                     </>
                   )}

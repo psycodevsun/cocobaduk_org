@@ -43,7 +43,7 @@ const Section03 = memo(function section03() {
         </div>
 
         <div className='mt-20 text-center max-md:mt-0'>
-          <h3 className='bg-[#2864a0] py-1 text-white font-bold rounded-full w-1/2 m-auto max-md:w-full'>바둑을 처음 배울수록, 아이에게<br className='hidden max-md:block'/> 맞는 시작이 중요합니다</h3>
+          <h3 className='bg-[#2864a0] py-1 text-white font-bold rounded-full w-1/2 m-auto max-md:w-full'>처음 바둑을 시작할수록 <br className='hidden max-md:block'/>아이에게 맞는 선생님이 중요합니다.</h3>
           <p className='mt-4 text-base tracking-tight'>아이의 변화를 직접 경헙해보세요</p>
         </div>
 

@@ -4,6 +4,7 @@ export interface Review {
   rating: number;
   image: string;
   comment: string;
+  writer: string;
 }
 
 // 커리큘럼 데이터

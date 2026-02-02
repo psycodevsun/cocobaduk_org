@@ -7,7 +7,7 @@ const Consultation = memo(function consultation() {
       <Container size="wide">
         <div className='text-center'>
           <h1 className='text-white font-bold text-3xl'>1:1 대국 + 실력 진단<br className='hidden max-md:block'/> + 상담까지</h1>
-          <p className='bg-[#f23991] w-fit px-10 text-white m-auto text-2xl rounded-full font-semibold mt-2 max-md:w-full max-md:px-0 max-md:mt-6'>1시간 체험수업 할인 이벤트</p>
+          <p className='bg-[#f23991] w-fit px-10 py-1 text-white m-auto text-2xl rounded-full font-semibold mt-2 max-md:w-fit max-md:px-6 max-md:mt-6 max-md:text-[26px]'>1시간 체험수업 특별 할인</p>
         </div>
 
         <div className='flex justify-center mt-3 items-end max-md:mt-1'>
@@ -36,7 +36,7 @@ const Consultation = memo(function consultation() {
           <p className='text-gray-600 mt-2 text-xs tracking-tighter mb-1 max-md:mt-1'>확인후 순차적으로 연락드립니다</p>
         </div>
 
-        <p className='text-white mt-8 font-bold text-base text-center max-md:mt-4'>지금, 부담없이 시작해보세요</p>
+        <p className='text-white mt-8 font-bold text-base text-center max-md:mt-4'>지금 바로! 부담없이 시작해보세요</p>
       </Container>
     </Section>
   );

@@ -22,7 +22,7 @@ export const SectionHeader = memo<SectionHeaderProps>(function SectionHeader({
         )}
       </h2>
       {subtitle && (
-        <p className="text-xl lg:text-lg text-normal tracking-body">{subtitle}</p>
+        <p className="text-xl lg:text-lg text-normal tracking-tight">{subtitle}</p>
       )}
     </div>
   );

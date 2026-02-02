@@ -54,18 +54,18 @@ const BrainDevelopment = memo(function BrainDevelopment() {
   return (
     <Section background="primary" ariaLabelledby="brain-development-title" className='bg-[url(/upimg/9-1.jpg)] bg-no-repeat bg-contain bg-bottom bg-[#eaf3f6] max-md:bg-none max-md:pb-0 max-md:pt-14'>
       <Container className='max-md:p-0'>
-        <div className="text-center mb-6 max-md:px-7">
-          <h2 id="brain-development-title" className="text-3xl md:text-4xl mb-2 tracking-title max-md:mb-0">
+        <div className="text-center mb-6">
+          <h2 id="brain-development-title" className="text-3xl md:text-4xl mb-2 tracking-tight max-md:mb-0">
             코코바둑의 수업은
           </h2>
-          <h3 className="text-3xl md:text-4xl font-bold tracking-title mb-6">
+          <h3 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">
             <span className="text-primary-emphasis">이기는 법</span>보다{' '}
             <span className="text-primary-emphasis">생각하는 과정</span>을 먼저 가르칩니다
           </h3>
         </div>
         <div className="text-center mb-10 max-md:px-7">
           <span className="inline-block px-8 py-1 rounded-full bg-primary-emphasis">
-            <p className="text-base md:text-lg lg:text-base md:font-bold tracking-body text-white break-keep">
+            <p className="text-base md:text-lg lg:text-base md:font-bold tracking-tight text-white break-keep">
               생각하고 판단하는 힘을 키우는 수업, 바로 코코바둑의 교육 방식입니다
             </p>
           </span>

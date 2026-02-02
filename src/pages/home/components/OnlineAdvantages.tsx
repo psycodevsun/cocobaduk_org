@@ -11,7 +11,7 @@ const OnlineAdvantages = memo(function OnlineAdvantages() {
             집에서 편하게
           </h2>
           <h3 className="text-3xl md:text-4xl font-bold tracking-title mb-6">
-            원하는 시간에 배우는 온라인 <br className='hidden max-md:block'/>바둑
+            원하는 시간에 배우는 <br className='hidden max-md:block'/>온라인 바둑
           </h3>
         </div>
 
@@ -32,7 +32,7 @@ const OnlineAdvantages = memo(function OnlineAdvantages() {
                   {index + 1}
                 </div>
                 <div>
-                  <p className="text-lg tracking-body break-keep font-semibold max-md:font-normal leading-1" dangerouslySetInnerHTML={{ __html: advantage.title }}/>
+                  <p className="text-lg tracking-tight break-keep font-semibold max-md:font-normal leading-1" dangerouslySetInnerHTML={{ __html: advantage.title }}/>
                 </div>
               </div>
             ))}

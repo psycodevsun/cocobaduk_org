@@ -34,14 +34,14 @@ const WhyOnline = memo(function WhyOnline() {
                       {reason.points.map((point, pointIndex) => (
                         <p
                           key={pointIndex}
-                          className="text-xs lg:text-base tracking-body leading-caption md:leading-caption max-md:leading-[1.5]"
+                          className="text-xs lg:text-base tracking-tight leading-caption md:leading-caption max-md:leading-[1.5]"
                         >
                           {point}
                         </p>
                       ))}
 
                       {reason.quote && (
-                        <p className="mt-4 text-lg lg:text-base tracking-body leading-caption text-primary-emphasis font-medium">
+                        <p className="mt-4 text-lg lg:text-base tracking-tight leading-caption text-primary-emphasis font-medium">
                           {reason.quote}
                         </p>
                       )}
@@ -55,13 +55,13 @@ const WhyOnline = memo(function WhyOnline() {
 
         <div className="mt-12 bg-primary-emphasis p-6 md:p-8 rounded-2xl max-w-5xl mx-auto max-md:px-3">
           <div className="text-center">
-            <h3 className="text-2xl md:text-3xl tracking-title text-white mb-6">
+            <h3 className="text-2xl md:text-3xl tracking-tight text-white mb-6">
               바둑은 아이의 <span className="font-bold text-pt-w100">두뇌 습관</span>을 <br className='hidden max-md:block'/>바꿉니다
             </h3>
             <Grid cols={4} gap="default" className="md:gap-6 max-md:gap-x-3 max-md:gap-y-2">
               {BRAIN_HABITS.map((habit, index) => (
-                <div key={index} className="flex items-center justify-center p-3 md:p-4 bg-white rounded-lg">
-                  <span className="text-xs md:text-lg lg:text-base tracking-body">{habit}</span>
+                <div key={index} className="flex items-center justify-center p-3 max-md:px-1 md:p-4 bg-white rounded-lg">
+                  <span className="text-xs md:text-lg lg:text-base tracking-tight">{habit}</span>
                 </div>
               ))}
             </Grid>

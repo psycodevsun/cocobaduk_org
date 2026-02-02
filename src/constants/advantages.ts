@@ -7,7 +7,7 @@ export const ADVANTAGES: Advantage[] = [
   },
   {
     icon: 'ri-computer-line',
-    title: `PC만 있으면 OK, <br class="hidden max-md:block"/>별도 장비 없이 바로 참여`,
+    title: `PC만 있으면 OK <br class="hidden max-md:block"/>별도 장비 없이 바로 참여`,
   },
   {
     icon: 'ri-time-line',

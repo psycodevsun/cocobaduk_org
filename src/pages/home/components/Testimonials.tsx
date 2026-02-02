@@ -43,7 +43,7 @@ const Testimonials = memo(function Testimonials() {
             </p>
             <div className="text-center">
               <span className="inline-block px-10 py-1 rounded-full bg-surface-warm">
-                <p className="text-2xl font-semibold  text-pt-b300 max-md:text-xl tracking-tight">
+                <p className="text-2xl font-bold text-pt-b300 py-1 max-md:text-xl tracking-tight max-md:leading-[1.1]">
                   집에서 편하게! <br className='hidden max-md:block'/>결과는 확실하게
                 </p>
               </span>

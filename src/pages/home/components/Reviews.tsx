@@ -44,7 +44,7 @@ const Reviews = memo(function Reviews() {
                         <Icon key={i} name="ri-star-fill" size="default" />
                       ))}
                     </div>
-                    <span className="text-sm text-gray-600">수강생 학부모</span>
+                    <span className="text-sm text-gray-600">{review.writer}</span>
                   </div>
                 </div>
                 <p className="text-gray-700 leading-relaxed">"{review.comment}"</p>
