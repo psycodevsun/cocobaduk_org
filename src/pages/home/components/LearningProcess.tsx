@@ -6,8 +6,8 @@ const LearningProcess = memo(function LearningProcess() {
   return (
     <Section background="white" ariaLabelledby="learning-process-title" className='max-md:pb-0 max-md:pt-14'>
       <Container>
-        <div className="text-center mb-16 max-md:mb-12">
-          <h2 id="learning-process-title" className="text-3xl md:text-4xl tracking-title mb-6 max-md:mb-0">
+        <div className="text-center mb-24 max-md:mb-12">
+          <h2 id="learning-process-title" className="text-3xl md:text-4xl tracking-tight max-md:mb-0">
             코코바둑 <span className="font-bold">수강안내</span>
           </h2>
         </div>
@@ -18,24 +18,24 @@ const LearningProcess = memo(function LearningProcess() {
               <Image src={`/upimg/${step.image}`} alt="이미지"/>
               <Card key={step.step} variant="default" padding="large" className="bg-neutral-100 min-h-[387px] max-md:min-h-0 max-md:py-8">
                 <div className="flex items-center mb-4">
-                  <span className="bg-primary-emphasis text-white px-4 py-2 rounded-full text-sm font-bold mr-3">
+                  <span className="bg-primary-emphasis text-white px-4 py-2 rounded-full tracking-tight text-sm font-bold mr-3">
                     STEP {step.step}
                   </span>
                 </div>
-                <h3 className="text-xl lg:text-2xl font-bold text-primary-emphasis tracking-tight mb-7">
+                <h3 className="text-xl lg:text-2xl font-bold text-primary-emphasis tracking-normal mb-7">
                   {step.title}
                 </h3>
                 <div>
-                  <p className="tracking-tight mb-7">{step.description}</p>
+                  <p className="tracking-normal mb-7">{step.description}</p>
                   {step.step === 1 && (
                     <>
                       <div className="mb-7">
-                        <p className="tracking-tight">{step.details[0]}</p>
-                        <p className="tracking-tight">{step.details[1]}</p>
+                        <p className="tracking-normal">{step.details[0]}</p>
+                        <p className="tracking-normal">{step.details[1]}</p>
                       </div>
                       <div className="mb-3">
-                        <p className="tracking-tight">{step.details[2]}</p>
-                        <p className="tracking-tight">{step.details[3]}</p>
+                        <p className="tracking-normal">{step.details[2]}</p>
+                        <p className="tracking-normal">{step.details[3]}</p>
                       </div>
                     </>
                   )}

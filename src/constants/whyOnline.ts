@@ -43,7 +43,7 @@ export const WHY_ONLINE_REASONS: WhyOnlineReason[] = [
       '지는 순간 울고 화내던 아이가',
       '이제는 감정을 가라앉히고 어디를 고치면 될지 생각합니다.',
     ],
-    quote: '"엄마, 나 이제 중요한 순간엔 천천히 두면 더 잘할 수 있을 것 같아."',
+    quote: `"엄마, 나 이제 중요한 순간엔 <br class='hidden md:block'/>천천히 두면 더 잘할 수 있을 것 같아."`,
     color: 'bg-neutral-50',
     image: '/upimg/11-4.jpg',
   },

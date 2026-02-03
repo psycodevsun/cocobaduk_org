@@ -6,11 +6,11 @@ const Reviews = memo(function Reviews() {
   return (
     <section id="reviews" aria-labelledby="reviews-title">
       <div className="pt-20 mx-auto px-6 lg:px-8 bg-primary-surface max-md:pt-14">
-        <div className="text-center mb-12">
-          <h2 id="reviews-title" className="text-3xl md:text-4xl font-bold mb-2 tracking-title max-md:mb-1">
+        <div className="text-center mb-12 md:mb-4">
+          <h2 id="reviews-title" className="text-3xl md:text-4xl font-bold mb-0 max-md:mb-1">
             수강 학부모 후기
           </h2>
-          <p className="text-xl max-md:text-base text-normal tracking-body">
+          <p className="text-lg mt-1 max-md:text-base text-normal tracking-tight">
             코코바둑을 직접 경험한 학부모님의 솔직한 후기입니다
           </p>
         </div>

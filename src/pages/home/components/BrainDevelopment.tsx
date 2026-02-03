@@ -55,7 +55,7 @@ const BrainDevelopment = memo(function BrainDevelopment() {
     <Section background="primary" ariaLabelledby="brain-development-title" className='bg-[url(/upimg/9-1.jpg)] bg-no-repeat bg-contain bg-bottom bg-[#eaf3f6] max-md:bg-none max-md:pb-0 max-md:pt-14'>
       <Container className='max-md:p-0'>
         <div className="text-center mb-6">
-          <h2 id="brain-development-title" className="text-3xl md:text-4xl mb-2 tracking-tight max-md:mb-0">
+          <h2 id="brain-development-title" className="text-3xl md:text-4xl mb-1 tracking-tight">
             코코바둑의 수업은
           </h2>
           <h3 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">

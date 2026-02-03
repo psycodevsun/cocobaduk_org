@@ -17,7 +17,7 @@ const Section02 = memo(function section02() {
 
           <div>
             <h1 className='font-bold text-5xl mt-3 text-center max-md:text-3xl'>학생과 학부모가 <span className='text-[#2864a0]'>선택</span>한<br className='hidden max-md:block'/> 코코바둑</h1>
-            <p className='text-center mt-2 text-xl max-md:text-sm'>장기간 검증된 집중력 • 사고력 중심 온라인 바둑 교육</p>
+            <p className='text-center mt-2 md:mt-3 text-xl max-md:text-sm'>장기간 검증된 집중력 • 사고력 중심 온라인 바둑 교육</p>
           </div>
         </div>
       </Container>

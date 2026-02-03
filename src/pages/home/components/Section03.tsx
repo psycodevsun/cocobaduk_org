@@ -8,7 +8,7 @@ const Section03 = memo(function section03() {
       <Container>
         <div className="text-center mb-16 max-md:mb-9">
           <h2 id="section01-title" className="text-3xl md:text-4xl font-bold mb-2 tracking-tight leading-none max-md:text-2xl max-md:leading-none">
-            오랜 기간 검증된 선택의 이유<br/><span className='text-lg font-normal max-md:text-base'>시간이 증명한 바둑 수업</span>
+            오랜 기간 검증된 선택의 이유 <span className='text-lg font-normal tracking-tight max-md:text-base block mt-2'>시간이 증명한 바둑 수업</span>
           </h2>
         </div>
 
