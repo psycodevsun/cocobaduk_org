@@ -11,7 +11,7 @@ const OnlineAdvantages = memo(function OnlineAdvantages() {
             집에서 편하게
           </h2>
           <h3 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">
-            원하는 시간에 배우는 <br className='hidden max-md:block'/>온라인 바둑
+            원하는 시간에 배우는 <br className='hidden max-md:block'/>온라인 바둑 수업
           </h3>
         </div>
 

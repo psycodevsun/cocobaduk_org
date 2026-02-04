@@ -38,12 +38,12 @@ export const WHY_ONLINE_REASONS: WhyOnlineReason[] = [
   },
   {
     number: '4',
-    title: `승부욕이 강한 우리 아이, <br class="hidden max-md:block"/>바둑으로 이렇게 달라졌어요`,
+    title: `승부욕이 강한 우리 아이, <br/>바둑으로 이렇게 달라졌어요`,
     points: [
       '지는 순간 울고 화내던 아이가',
       '이제는 감정을 가라앉히고 어디를 고치면 될지 생각합니다.',
     ],
-    quote: `"엄마, 나 이제 중요한 순간엔 <br class='hidden md:block'/>천천히 두면 더 잘할 수 있을 것 같아."`,
+    quote: `"엄마, 나 이제 중요한 순간엔 <br/>천천히 두면 더 잘할 수 있을 것 같아."`,
     color: 'bg-neutral-50',
     image: '/upimg/11-4.jpg',
   },

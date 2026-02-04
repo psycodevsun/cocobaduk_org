@@ -81,7 +81,7 @@ const Section01 = memo(function section01() {
                 <Image src='/upimg/sec1-4.png' className='w-auto' alt='커리큘럼'/>
               </div>
 
-              <p className='text-center mb-8 tracking-tight max-md:text-sm max-md:mb-6 max-md:break-keep'>23년 경력으로 만든 '우리 아이 맞춤' 커리큘럼<br/>모든 아이에게 같은 수업은 없습니다 <br className='hidden max-md:block'/>아이의 속도에 맞춰 매월 교육 목표를 단계별로 설계합니다</p>
+              <p className='text-center mb-8 tracking-tight max-md:text-xs max-md:mb-6 max-md:break-keep'>23년 경력으로 만든 '우리 아이 맞춤' 커리큘럼<br/>모든 아이에게 같은 수업은 없습니다 <br className='hidden max-md:block'/>아이의 속도에 맞춰 매월 교육 목표를 단계별로 설계합니다</p>
             </div>
           </div>
       </Container>

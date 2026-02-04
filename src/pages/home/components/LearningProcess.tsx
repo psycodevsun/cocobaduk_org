@@ -16,7 +16,7 @@ const LearningProcess = memo(function LearningProcess() {
           {LEARNING_STEPS.map((step) => (
             <div>
               <Image src={`/upimg/${step.image}`} alt="이미지"/>
-              <Card key={step.step} variant="default" padding="large" className="bg-neutral-100 min-h-[387px] max-md:min-h-0 max-md:py-8">
+              <Card key={step.step} variant="default" padding="large" className="bg-neutral-100 min-h-[420px] max-md:min-h-0 max-md:py-8 pr-0">
                 <div className="flex items-center mb-4">
                   <span className="bg-primary-emphasis text-white px-4 py-2 rounded-full tracking-tight text-sm font-bold mr-3">
                     STEP {step.step}

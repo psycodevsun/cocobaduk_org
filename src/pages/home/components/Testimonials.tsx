@@ -11,13 +11,13 @@ const Testimonials = memo(function Testimonials() {
             이런 분들께 <span className="font-bold">추천합니다</span>
           </h2>
 
-          <div className='flex flex-col gap-6 max-md:px-4'>
+          <div className='flex flex-col gap-6 max-md:px-4 md:w-[800px] m-auto'>
             {TARGET_AUDIENCE.map((item, index) => (
               <div key={index} className="flex items-center py-4 px-20 bg-white rounded-lg max-md:p-3 max-md:items-start">
                 <span className="mr-3 flex-shrink-0 max-md:mr-0 max-md:w-6 max-md:h-6" aria-hidden="true">
                   <Image src="/upimg/checkbox.png" alt="체크박스"/>
                 </span>
-                <span className="flex gap-1 pl-5 max-md:flex-wrap max-md:tracking-tight max-md:leading-none" dangerouslySetInnerHTML={{ __html: item }}/>
+                <span className="flex gap-1 pl-5 md:text-xl max-md:flex-wrap max-md:tracking-tight max-md:leading-none" dangerouslySetInnerHTML={{ __html: item }}/>
               </div>
             ))}
           </div>

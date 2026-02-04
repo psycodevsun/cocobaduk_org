@@ -28,20 +28,20 @@ const WhyOnline = memo(function WhyOnline() {
                   </div>
 
                   <div className="flex-1 min-w-0">
-                    <h3 className="text-base md:text-2xl lg:text-xl font-bold text-primary-emphasis tracking-title leading-title mb-5 max-md:" dangerouslySetInnerHTML={{__html:reason.title}}></h3>
+                    <h3 className="text-xl md:text-2xl font-bold text-primary-emphasis tracking-tight mb-5 max-md:" dangerouslySetInnerHTML={{__html:reason.title}}></h3>
 
                     <div>
                       {reason.points.map((point, pointIndex) => (
                         <p
                           key={pointIndex}
-                          className="text-xs lg:text-base tracking-tight leading-caption md:leading-caption max-md:leading-[1.5]"
+                          className="text-xs max-md:text-base lg:text-base tracking-tight leading-caption md:leading-caption max-md:leading-[1.5]"
                         >
                           {point}
                         </p>
                       ))}
 
                       {reason.quote && (
-                        <p className="text-lg lg:text-base tracking-tight leading-caption text-primary-emphasis font-medium" dangerouslySetInnerHTML={{ __html : reason.quote ?? "" }}></p>
+                        <p className="text-lg max-md:text-base lg:text-base tracking-tight leading-caption text-primary-emphasis font-medium" dangerouslySetInnerHTML={{ __html : reason.quote ?? "" }}></p>
                       )}
                     </div>
                   </div>

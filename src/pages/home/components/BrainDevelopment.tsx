@@ -60,13 +60,13 @@ const BrainDevelopment = memo(function BrainDevelopment() {
           </h2>
           <h3 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">
             <span className="text-primary-emphasis">이기는 법</span>보다{' '}
-            <span className="text-primary-emphasis">생각하는 과정</span>을 먼저 가르칩니다
+            <span className="text-primary-emphasis">생각하는 과정</span>을 <br className='hidden max-md:block'/>먼저 가르칩니다
           </h3>
         </div>
         <div className="text-center mb-10 max-md:px-7">
           <span className="inline-block px-8 py-1 rounded-full bg-primary-emphasis">
             <p className="text-base md:text-lg lg:text-base md:font-bold tracking-tight text-white break-keep">
-              생각하고 판단하는 힘을 키우는 수업, 바로 코코바둑의 교육 방식입니다
+              생각하고 판단하는 힘을 키우는 수업, <br className="hidden max-md:block"/>바로 코코바둑의 교육 방식입니다
             </p>
           </span>
         </div>

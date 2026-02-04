@@ -11,7 +11,7 @@ export const ADVANTAGES: Advantage[] = [
   },
   {
     icon: 'ri-time-line',
-    title: `오전 9시 ~ 밤 11시, 원하는 시간대에 <br class="hidden max-md:block"/>수업 배정`,
+    title: `아침 9시 ~ 밤 11시 <br class="hidden max-md:block"/>원하는 시간대에 수업 배정`,
   },
   {
     icon: 'ri-calendar-check-line',

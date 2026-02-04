@@ -52,7 +52,7 @@ const Curriculum = memo(function Curriculum() {
                   </td>
                   <td className="px-3 py-4 tracking-tight text-lg max-md:p-2 max-md:text-xs text-center max-md:w-24">{item.concept}</td>
                   <td className="px-3 py-4 max-md:p-2 text-center max-md:w-6">
-                    <span className="bg-label-bg text-label-text px-4 py-1 rounded-full text-base tracking-tight text-center whitespace-nowrap max-md:text-xs text-center">
+                    <span className="block w-[130px] max-md:w-full bg-label-bg text-label-text px-4 py-1 rounded-full text-base tracking-tight text-center whitespace-nowrap max-md:text-xs">
                       {item.ability}
                     </span>
                   </td>

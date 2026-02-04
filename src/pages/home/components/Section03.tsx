@@ -4,8 +4,8 @@ import { SEC03CONTS } from '@/constants';
 
 const Section03 = memo(function section03() {
   return (
-    <Section id="section03" background="white" ariaLabelledby="section03-title" className='bg-[#f9fafc] max-md:pt-10 max-md:pb-16'>
-      <Container>
+    <Section id="section03" background="white" ariaLabelledby="section03-title" className='bg-[#f9fafc] max-md:pt-14 max-md:pb-16'>
+      <Container className='md:max-w-[80%]'>
         <div className="text-center mb-16 max-md:mb-9">
           <h2 id="section01-title" className="text-3xl md:text-4xl font-bold mb-2 tracking-tight leading-none max-md:text-2xl max-md:leading-none">
             오랜 기간 검증된 선택의 이유 <span className='text-lg font-normal tracking-tight max-md:text-base block mt-2'>시간이 증명한 바둑 수업</span>
@@ -19,19 +19,19 @@ const Section03 = memo(function section03() {
               <div className={`flex bg-white ${isEven ? 'flex-row-reverse' : ''} max-md:block md:h-[250px]`} key={index}>
                 <Image src={`/upimg/${el.image}.jpg`} alt='섹션3 이미지' className='w-1/2 max-md:w-full'/>
 
-                <div className='w-1/2 flex items-start p-14 gap-3 max-md:w-full max-md:p-7 max-md:pr-0'>
-                  <p className='bg-[#2864a0] text-white font-bold w-[20px] h-[20px] text-center text-sm rounded-full mt-1'>{index + 1}</p>
+                <div className='w-1/2 flex items-start p-14 gap-3 max-md:w-full max-md:p-7 pr-0'>
+                  <p className='bg-[#2864a0] text-white font-bold w-[25px] h-[25px] text-center text-base rounded-full mt-1'>{index + 1}</p>
 
                   <div>
                     <div className='flex gap-3 items-center max-md:gap-1'>
-                      <p className='text-[#2864a0] font-bold text-lg max-md:text-base tracking-tighter'>{el.title}</p>
-                      <span className='text-base text-[#68a6d5] max-md:text-sm'>{el.tag}</span>
+                      <p className='text-[#2864a0] font-bold text-2xl max-md:text-base tracking-tighter'>{el.title}</p>
+                      <span className='text-xl text-[#68a6d5] max-md:text-sm'>{el.tag}</span>
                     </div>
 
                     <ul className='max-md:ml-3'>
                       {el.category.map((contents)=>{
                         return (
-                          <li className='mt-3 list-disc max-md:text-sm max-md:mt-3'>{contents}</li>
+                          <li className='mt-3 text-lg list-disc max-md:text-sm max-md:mt-3'>{contents}</li>
                         )
                       })}
                     </ul>

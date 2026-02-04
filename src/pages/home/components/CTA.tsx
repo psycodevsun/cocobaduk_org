@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import { Section, Container, Card, Button, Icon, Image } from '@/components/ui';
+import { Section, Container, Button, Image } from '@/components/ui';
 import { SITE_INFO } from '@/constants';
 
 const CTA = memo(function CTA() {
@@ -7,10 +7,10 @@ const CTA = memo(function CTA() {
     <Section background="gray" ariaLabelledby="cta-title" className='bg-gradient-to-tr from-[#4493ce] to-[#2864a0] max-md:pt-10 pt-14 md:pb-10'>
       <Container>
         <div className="text-center">
-          <h2 id="cta-title" className="text-3xl text-white md:text-4xl font-bold mb-1 tracking-tight">
+          <h2 id="cta-title" className="text-3xl text-white md:text-4xl font-bold mb-1 tracking-tighter">
             온라인 바둑 교육의 새로운 기준
           </h2>
-          <p className="text-xl lg:text-lg tracking-tight mb-8 text-white max-md:mb-4">체험 수업으로 직접 확인하세요</p>
+          <p className="text-xl lg:text-lg tracking-tight mb-0 text-white max-md:mb-4">체험 수업으로 직접 확인하세요</p>
 
           <Image src='/upimg/11-1.png' className='w-[80%] m-auto max-md:hidden' alt='쿠폰'/>
           <Image src='/upimg/11-2.png' className='w-[80%] m-auto hidden max-md:block max-md:w-full' alt='쿠폰'/>
