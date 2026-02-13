@@ -18,7 +18,7 @@ const OnlineAdvantages = memo(function OnlineAdvantages() {
         <div className="grid lg:grid-cols-2 gap-8 items-start">
           {/* 이미지 왼쪽 */}
           <div>
-            <Image src="/upimg/8-1.png" alt="온라인 수업 이미지" className='max-h-[600px] absolute bottom-0 left-[-25%] object-contain max-md:hidden'/>
+            <Image src="/upimg/8-1.png" alt="온라인 수업 이미지" className='max-h-[650px] absolute bottom-0 left-[-20%] object-contain max-md:hidden'/>
           </div>
 
           {/* 4개 박스 오른쪽 */}
@@ -28,7 +28,7 @@ const OnlineAdvantages = memo(function OnlineAdvantages() {
                 key={index}
                 className="flex items-center space-x-4 p-6 bg-white rounded-xl max-md:items-start z-10 max-md:p-3"
               >
-                <div className="w-10 h-10 bg-primary-emphasis rounded-full flex items-center justify-center flex-shrink-0 text-white font-bold max-md:w-5 max-md:h-5 max-md:mt-1 max-md:font-normal max-md:text-xs">
+                <div className="w-8 h-8 bg-primary-emphasis rounded-full flex items-center justify-center flex-shrink-0 text-white text-xl font-bold max-md:w-5 max-md:h-5 max-md:mt-1 max-md:font-normal max-md:text-xs">
                   {index + 1}
                 </div>
                 <div>

@@ -12,7 +12,7 @@ const WhyOnline = memo(function WhyOnline() {
           </h2>
         </div>
 
-        <div className="max-w-5xl mx-auto grid grid-cols-2 gap-12 max-md:grid-cols-1">
+        <div className="max-w-[1050px] mx-auto grid grid-cols-2 gap-12 max-md:grid-cols-1">
           {WHY_ONLINE_REASONS.map((reason, index) => (
             <div>
               <div>
@@ -20,28 +20,27 @@ const WhyOnline = memo(function WhyOnline() {
               </div>
 
               <div key={index} className={`${reason.color} max-md:p-6 p-8 pr-0 rounded-2xl min-h-[250px] max-md:min-h-0 max-md:px-4`}>
-                <div className="flex items-start gap-4">
+                <div className="flex items-start gap-4 max-md:gap-2">
                   <div className="flex-shrink-0">
                     <div className="w-10 h-10 bg-primary-emphasis text-white rounded-full flex items-center justify-center font-bold text-2xl max-md:h-7 max-md:w-7 max-md:text-base">
-                      <p className="mb-1">{reason.number}</p>
+                      <p className="md:mb-1">{reason.number}</p>
                     </div>
                   </div>
 
                   <div className="flex-1 min-w-0">
-                    <h3 className="text-xl md:text-2xl font-bold text-primary-emphasis tracking-tight mb-5 max-md:" dangerouslySetInnerHTML={{__html:reason.title}}></h3>
+                    <h3 className="text-[18px] md:text-2xl font-bold text-primary-emphasis leading-[1.2] tracking-tight mb-5 max-md:mb-1" dangerouslySetInnerHTML={{__html:reason.title}}></h3>
 
                     <div>
                       {reason.points.map((point, pointIndex) => (
                         <p
                           key={pointIndex}
-                          className="text-xs max-md:text-base lg:text-base tracking-tight leading-caption md:leading-caption max-md:leading-[1.5]"
-                        >
-                          {point}
-                        </p>
+                          className="text-xs lg:text-base tracking-tight leading-caption md:leading-caption max-md:leading-[1.5]"
+                          dangerouslySetInnerHTML={{__html:point}}
+                        ></p>
                       ))}
 
                       {reason.quote && (
-                        <p className="text-lg max-md:text-base lg:text-base tracking-tight leading-caption text-primary-emphasis font-medium" dangerouslySetInnerHTML={{ __html : reason.quote ?? "" }}></p>
+                        <p className="text-xs lg:text-base tracking-tight text-primary-emphasis font-medium" dangerouslySetInnerHTML={{ __html : reason.quote ?? "" }}></p>
                       )}
                     </div>
                   </div>

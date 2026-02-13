@@ -7,7 +7,7 @@ const Curriculum = memo(function Curriculum() {
     <Section id="curriculum" background="white" ariaLabelledby="curriculum-title" className='pb-0 max-md:pt-14'>
       <Container size='wide' className='p-0 rounded-none'>
         <div className="text-center">
-          <h2 id="curriculum-title" className="text-3xl md:text-4xl tracking-title mb-0 max-md:mb-2">
+          <h2 id="curriculum-title" className="text-3xl md:text-4xl mb-6 max-md:mb-2">
             실력별 <span className="font-bold">성장 커리큘럼</span>
           </h2>
         </div>
@@ -15,9 +15,9 @@ const Curriculum = memo(function Curriculum() {
         {/* 이미지 추가 */}
         <div>
           <Image
-            src="/upimg/10-1.jpg"
+            src="/upimg/10-1.jpeg"
             alt="커리큘럼 이미지"
-            className="w-full max-md:hidden mb-[-100px]"
+            className="w-full max-md:hidden mb-[-150px]"
           />
 
           <Image

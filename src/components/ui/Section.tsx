@@ -21,7 +21,7 @@ export const Section = memo<SectionProps>(function Section({
   return (
     <section
       id={id}
-      className={cn('py-24', bgStyles[background], className)}
+      className={cn('py-20', bgStyles[background], className)}
       aria-labelledby={ariaLabelledby}
       {...props}
     >
