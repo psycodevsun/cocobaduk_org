@@ -66,7 +66,7 @@ const BrainDevelopment = memo(function BrainDevelopment() {
         <div className="text-center mb-10 max-md:px-7">
           <span className="inline-block px-8 py-1 rounded-full bg-primary-emphasis">
             <p className="text-base md:text-lg lg:text-base md:font-bold tracking-tight text-white break-keep">
-              생각하고 판단하는 힘을 키우는 수업, <br className="hidden max-md:block"/>바로 코코바둑의 교육 방식입니다
+              생각하고 판단하는 힘을 키우는 수업 <br className="hidden max-md:block"/>바로 코코바둑의 교육 방식입니다
             </p>
           </span>
         </div>
