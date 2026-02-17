@@ -28,7 +28,7 @@ export const LEARNING_STEPS: LearningStep[] = [
   {
     step: 3,
     title: '맞춤 반 배정',
-    description: '아이에게 중요한 기준을 우선순위로 반영해 반배정',
+    description: '아이에게 중요한 기준을 우선순위로 반영한 반배정',
     details: [
       '1순위 · 실력',
       '2순위 · 나이 및 또래 구성',

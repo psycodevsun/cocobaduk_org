@@ -5,7 +5,7 @@ const Section02 = memo(function section02() {
   return (
     <Section id="section02" background="white" ariaLabelledby="section02-title" className='p-0'>
       <Container className='px-0 relative flex justify-center' size="wide">
-        <Image src='/upimg/sec2-banner-pc.jpg' className='rounded-none max-md:hidden' alt='섹션2'/>
+        <Image src='/upimg/sec2-banner-pc.jpg' className='rounded-none max-md:hidden h-[1200px]' alt='섹션2'/>
         <Image src='/upimg/sec2-banner-mo.jpg' className='rounded-none md:hidden' alt='섹션2'/>
 
         <div className='absolute top-[10%] max-md:px-7'>
