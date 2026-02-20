@@ -86,7 +86,7 @@ const BrainDevelopment = memo(function BrainDevelopment() {
                   key={i}
                   d={path}
                   fill="none"
-                  stroke="#d4a574"
+                  stroke="#6794b9"
                   strokeWidth="1"
                   opacity={0.3}
                 />
@@ -94,21 +94,21 @@ const BrainDevelopment = memo(function BrainDevelopment() {
 
               {/* 축 라인 */}
               {chartData.axisLines.map((path, i) => (
-                <path key={i} d={path} stroke="#d4a574" strokeWidth="1" opacity={0.5} />
+                <path key={i} d={path} stroke="#6794b9" strokeWidth="1" opacity={0.5} />
               ))}
 
               {/* 데이터 영역 */}
               <path
                 d={chartData.dataPath}
-                fill="#6294bd"
-                fillOpacity={0.3}
-                stroke="#6294bd"
+                fill="#accbe2"
+                fillOpacity={0.6}
+                stroke="#6794b9"
                 strokeWidth="2"
               />
 
               {/* 데이터 포인트 */}
               {chartData.dataPoints.map((point, i) => (
-                <circle key={i} cx={point.x} cy={point.y} r="5" fill="#6294bd" />
+                <circle key={i} cx={point.x} cy={point.y} r="5" fill="#6794b9" />
               ))}
 
               {/* 라벨 */}
@@ -119,7 +119,7 @@ const BrainDevelopment = memo(function BrainDevelopment() {
                   y={chartData.labelPoints[i].y}
                   textAnchor="middle"
                   dominantBaseline="middle"
-                  className="text-xs font-black fill-[#2864a0]"
+                  className="text-xs font-black fill-[#5b839d]"
                   style={{ fontSize: '12px' }}
                 >
                   {ability.name}

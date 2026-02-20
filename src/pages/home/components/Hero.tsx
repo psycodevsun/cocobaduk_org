@@ -7,14 +7,14 @@ const Hero = memo(function Hero() {
     <section
       id="home"
       className={cn(
-        'relative min-h-[520px] md:h-[750px] lg:h-[600px]',
+        'relative min-h-[500px] md:h-[750px] lg:h-[600px]',
         'text-gray-800 flex items-center overflow-hidden',
         'pt-16 pb-0 lg:pb-8 bg-surface-warm'
       )}
       aria-labelledby="hero-title"
     >
       <div className="relative z-10 max-w-7xl mx-auto md:px-8 w-full">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center h-full">
+        <div className="grid lg:grid-cols-2 items-center h-full">
           <div className="text-left relative z-10">
             <div className="px-6 md:px-0 mt-5 lg:mt-0 mb-1 md:mb-3">
               <h2 className="text-2xl md:text-3xl tracking-tight mb-2">
@@ -42,7 +42,7 @@ const Hero = memo(function Hero() {
               src="/upimg/12.jpg"
               alt="바둑 교육 이미지"
               rounded="none"
-              className="h-full scale-[1.2] relative bottom-[-10px]"
+              className="h-full scale-[1.2] relative bottom-[0px]"
             />
           </div>
 
@@ -52,7 +52,7 @@ const Hero = memo(function Hero() {
               src="/upimg/12.jpg"
               alt="바둑 교육 이미지"
               rounded="none"
-              className="h-full scale-[1.55] relative bottom-[-50px]"
+              className="h-full scale-[1.7] relative bottom-[30px]"
             />
           </div>
         </div>
