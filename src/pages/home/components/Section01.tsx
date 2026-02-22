@@ -21,7 +21,7 @@ const Section01 = memo(function section01() {
 
               <p className='text-[#104b85] font-semibold text-center mt-5 text-xl max-md:text-sm max-md:tracking-tighter max-md:mt-2'>매월 교육목표 설정 & 달성</p>
 
-              <div className='flex relative justify-center gap-6 mt-14 mb-14 after:w-[70%] after:border-1 after:absolute after:border-b after:border-dashed after:border-[#104b85] items-center max-md:grid max-md:grid-cols-3 max-md:gap-4 max-md:my-10 max-md:after:bottom-[40px] max-md:after:w-[110%] max-md:after:left-[-5%] max-md:before:border-1 max-md:before:absolute max-md:before:border-b max-md:before:border-dashed max-md:before:border-[#104b85] max-md:before:w-[110%] max-md:before:left-[-5%] max-md:before:top-[40px]'>
+              <div className='flex relative justify-center gap-6 mt-14 mb-14 after:w-[70%] after:border-1 after:absolute after:border-b after:border-dashed after:border-[#104b85] items-center max-md:grid max-md:grid-cols-3 max-md:gap-4 max-md:my-6 max-md:after:bottom-[40px] max-md:after:w-[110%] max-md:after:left-[-5%] max-md:before:border-1 max-md:before:absolute max-md:before:border-b max-md:before:border-dashed max-md:before:border-[#104b85] max-md:before:w-[110%] max-md:before:left-[-5%] max-md:before:top-[40px]'>
                 {GROWLEVEL.map((level)=>{
                   return (
                     <div className='relative flex items-center justify-center bg-transparent z-10'>
@@ -32,7 +32,7 @@ const Section01 = memo(function section01() {
                 })}
               </div>
 
-              <p className='text-center tracking-tight mb-14 text-lg max-md:text-xs max-md:mb-6 max-md:break-keep'>아이의 속도에 맞춰 매월 목표를 설정하고<br/>입문 → 초급 → 중급 → 고급  → 기사 → 유단자까지 <br className='hidden max-md:block'/>성장 방향을 함께 공유합니다</p>
+              <p className='text-center tracking-tight mb-14 text-lg max-md:text-sm max-md:mb-6 max-md:break-keep'>아이의 속도에 맞춰 매월 목표를 설정하고<br/>입문 → 초급 → 중급 → 고급  → 기사 → 유단자까지 <br className='hidden max-md:block'/>성장 방향을 함께 공유합니다</p>
             </div>
           </div>
 
@@ -81,7 +81,7 @@ const Section01 = memo(function section01() {
                 <Image src='/upimg/sec1-4.png' className='w-auto' alt='커리큘럼'/>
               </div>
 
-              <p className='text-center mb-8 tracking-tight text-lg max-md:text-xs max-md:mb-6 max-md:break-keep'>23년 경력으로 만든 '우리 아이 맞춤' 커리큘럼<br/><br className='hidden max-md:block'/>아이의 속도에 맞춰 매월 교육 목표를 단계별로 설계합니다</p>
+              <p className='text-center mb-8 tracking-tight text-lg max-md:text-sm max-md:mb-6 max-md:break-keep'>23년 경력으로 만든 '우리 아이 맞춤' 커리큘럼<br/>아이의 속도에 맞춰 매월 교육 목표를 단계별로 설계합니다</p>
             </div>
           </div>
       </Container>

@@ -42,7 +42,7 @@ const Hero = memo(function Hero() {
               src="/upimg/12.jpg"
               alt="바둑 교육 이미지"
               rounded="none"
-              className="h-full scale-[1.2] relative bottom-[0px]"
+              className="h-full scale-[1.2] relative bottom-[-10px]"
             />
           </div>
 

@@ -8,11 +8,11 @@ const Section02 = memo(function section02() {
         <Image src='/upimg/sec2-banner-pc.jpg' className='rounded-none max-md:hidden h-[1200px]' alt='섹션2'/>
         <Image src='/upimg/sec2-banner-mo.jpg' className='rounded-none md:hidden' alt='섹션2'/>
 
-        <div className='absolute top-[10%] max-md:px-7'>
+        <div className='absolute top-[10%] max-md:top-[6%] max-md:px-7'>
           <div className='flex justify-center items-center'>
-            <Image src='/upimg/wing.png' alt='15년간 9,500명' className='w-60 max-md:w-40'/>
+            <Image src='/upimg/wing.png' alt='15년간 9,500명' className='w-64 max-md:w-40'/>
 
-            <p className='text-center text-lg tracking-tight absolute leading-none top-6 max-md:text-sm max-md:top-2'>15년간 <span className='block text-[#2864a0] font-bold text-3xl max-md:text-xl'>9,500명</span></p>
+            <p className='text-center text-2xl tracking-tight absolute leading-none top-5 max-md:text-sm max-md:top-2'>15년간 <span className='block text-[#2864a0] font-bold text-4xl max-md:text-xl'>9,500명</span></p>
           </div>
 
           <div>
