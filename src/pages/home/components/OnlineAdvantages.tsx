@@ -7,7 +7,7 @@ const OnlineAdvantages = memo(function OnlineAdvantages() {
     <Section background="warm" ariaLabelledby="online-advantages-title" className='relative max-md:pb-0 max-md:pt-14'>
       <Container className='max-md:p-0'>
         <div className="text-center mb-12 max-md:mb-6">
-          <h2 id="online-advantages-title" className="text-3xl md:text-4xl mb-2 tracking-tight">
+          <h2 id="online-advantages-title" className="text-3xl md:text-4xl mb-2 max-md:mb-0 tracking-tight">
             집에서 편하게
           </h2>
           <h3 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">
