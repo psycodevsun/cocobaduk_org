@@ -7,7 +7,7 @@ const Consultation = memo(function consultation() {
       <Container size="wide">
         <div className='text-center'>
           <h1 className='text-white font-bold text-3xl'>1:1 대국 + 실력 진단<br className='hidden max-md:block'/> + 상담까지</h1>
-          <p className='bg-[#f23991] w-fit px-10 py-1 text-white m-auto text-2xl rounded-full font-semibold mt-2 max-md:w-fit max-md:px-6 max-md:mt-6 max-md:text-[26px]'>1시간 체험수업 특별 할인</p>
+          <p className='bg-[#f23991] w-fit px-10 py-1 text-white m-auto text-2xl rounded-full font-semibold mt-4 max-md:w-fit max-md:px-6 max-md:mt-6 max-md:text-[26px]'>1시간 체험수업 특별 할인</p>
         </div>
 
         <div className='flex justify-center mt-3 items-end max-md:mt-1'>
