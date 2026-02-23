@@ -22,7 +22,7 @@ const OnlineAdvantages = memo(function OnlineAdvantages() {
           </div>
 
           {/* 4개 박스 오른쪽 */}
-          <div className="grid grid-cols-1 gap-4 max-md:px-7 md:ml-[30px]">
+          <div className="grid grid-cols-1 gap-4 max-md:px-7 md:ml-[50px]">
             {ADVANTAGES.map((advantage, index) => (
               <div
                 key={index}
