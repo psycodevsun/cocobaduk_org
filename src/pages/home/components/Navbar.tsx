@@ -1,7 +1,7 @@
 import { memo, useCallback } from 'react';
 import { Button, Icon } from '@/components/ui';
 import { useScrollToSection, useMobileMenu } from '@/hooks';
-import { MOVE_TOP, NAV_ITEMS, SITE_INFO } from '@/constants';
+import { MOVE_TOP, NAV_ITEMS } from '@/constants';
 
 const Navbar = memo(function Navbar() {
   const scrollToSection = useScrollToSection();
