@@ -2,9 +2,14 @@ import type { SiteInfo } from '@/types';
 
 export const SITE_INFO: SiteInfo = {
   name: '코코바둑',
-  phone: 'tel:010-6753-8985',
-  phoneDisplay: '010-6753-8985',
+  phone: 'tel:010-6325-8985',
+  phoneDisplay: '010-6325-8985',
 };
+
+export const MOVE_TOP = {
+  id : 'home',
+  label : '코코바둑',
+}
 
 export const TRIAL_LESSON = {
   originalPrice: 60000,

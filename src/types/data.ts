@@ -4,6 +4,7 @@ export interface Review {
   rating: number;
   image: string;
   comment: string;
+  writer: string;
 }
 
 // 커리큘럼 데이터
@@ -45,6 +46,7 @@ export interface LearningStep {
   title: string;
   description: string;
   details: string[];
+  image: string;
 }
 
 // 왜 온라인인가 데이터
@@ -54,6 +56,7 @@ export interface WhyOnlineReason {
   points: string[];
   quote?: string;
   color: string;
+  image: string;
 }
 
 // 추천 대상 데이터
@@ -81,4 +84,19 @@ export interface SiteInfo {
   name: string;
   phone: string;
   phoneDisplay: string;
+}
+
+// 성장단계
+export interface Growlevel {
+  image: string;
+  title: string;
+  color: string;
+}
+
+// 섹션3 컨텐츠
+export interface Sec03conts {
+  image: string;
+  title: string;
+  tag: string;
+  category: string[];
 }

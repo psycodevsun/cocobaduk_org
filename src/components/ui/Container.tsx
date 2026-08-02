@@ -14,7 +14,7 @@ export const Container = memo<ContainerProps>(function Container({
   children,
 }) {
   return (
-    <div className={cn(sizeStyles[size], 'mx-auto px-6 lg:px-8', className)}>
+    <div className={cn(sizeStyles[size], 'mx-auto px-6', className)}>
       {children}
     </div>
   );

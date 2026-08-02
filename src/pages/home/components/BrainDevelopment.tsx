@@ -52,31 +52,26 @@ const BrainDevelopment = memo(function BrainDevelopment() {
   }, []);
 
   return (
-    <Section background="primary" ariaLabelledby="brain-development-title">
-      <Container>
+    <Section background="primary" ariaLabelledby="brain-development-title" className='bg-[url(/upimg/9-1.jpg)] bg-no-repeat bg-bottom bg-[#eaf3f6] max-md:bg-none max-md:pb-0 max-md:pt-14' style={{ backgroundSize: '1550px' }}>
+      <Container className='max-md:p-0'>
         <div className="text-center mb-6">
-          <h2 id="brain-development-title" className="text-3xl md:text-4xl mb-2 tracking-title">
+          <h2 id="brain-development-title" className="text-3xl md:text-4xl mb-1 tracking-tight">
             코코바둑의 수업은
           </h2>
-          <h3 className="text-3xl md:text-4xl font-bold tracking-title mb-6">
+          <h3 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">
             <span className="text-primary-emphasis">이기는 법</span>보다{' '}
-            <span className="text-primary-emphasis">생각하는 과정</span>을 먼저 가르칩니다
+            <span className="text-primary-emphasis">생각하는 과정</span>을 <br className='hidden max-md:block'/>먼저 가르칩니다
           </h3>
         </div>
-        <div className="text-center mb-10">
-          <span className="inline-block px-8 py-2 rounded-full bg-primary-emphasis">
-            <p className="text-base md:text-lg lg:text-base md:font-bold tracking-body text-white">
-              생각하고 판단하는 힘을 키우는 수업, 바로 코코바둑의 교육 방식입니다
+        <div className="text-center mb-10 max-md:px-7">
+          <span className="inline-block px-8 py-1 rounded-full bg-primary-emphasis">
+            <p className="text-base md:text-lg lg:text-base md:font-bold tracking-tight text-white break-keep">
+              생각하고 판단하는 힘을 키우는 수업 <br className="hidden max-md:block"/>바로 코코바둑의 교육 방식입니다
             </p>
           </span>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
-          {/* 이미지 */}
-          <div>
-            <Image src="/upimg/9.jpg" alt="두뇌 발달 이미지" shadow />
-          </div>
-
+        <div className="grid lg:grid-cols-2 items-center max-w-5xl mx-auto max-md:px-7">
           {/* 육각형 레이더 차트 */}
           <div className="flex justify-center">
             <svg
@@ -91,7 +86,7 @@ const BrainDevelopment = memo(function BrainDevelopment() {
                   key={i}
                   d={path}
                   fill="none"
-                  stroke="#d4a574"
+                  stroke="#6794b9"
                   strokeWidth="1"
                   opacity={0.3}
                 />
@@ -99,21 +94,21 @@ const BrainDevelopment = memo(function BrainDevelopment() {
 
               {/* 축 라인 */}
               {chartData.axisLines.map((path, i) => (
-                <path key={i} d={path} stroke="#d4a574" strokeWidth="1" opacity={0.5} />
+                <path key={i} d={path} stroke="#6794b9" strokeWidth="1" opacity={0.5} />
               ))}
 
               {/* 데이터 영역 */}
               <path
                 d={chartData.dataPath}
-                fill="#f59e0b"
-                fillOpacity={0.3}
-                stroke="#f59e0b"
+                fill="#accbe2"
+                fillOpacity={0.6}
+                stroke="#6794b9"
                 strokeWidth="2"
               />
 
               {/* 데이터 포인트 */}
               {chartData.dataPoints.map((point, i) => (
-                <circle key={i} cx={point.x} cy={point.y} r="5" fill="#f59e0b" />
+                <circle key={i} cx={point.x} cy={point.y} r="5" fill="#6794b9" />
               ))}
 
               {/* 라벨 */}
@@ -124,7 +119,7 @@ const BrainDevelopment = memo(function BrainDevelopment() {
                   y={chartData.labelPoints[i].y}
                   textAnchor="middle"
                   dominantBaseline="middle"
-                  className="text-xs font-bold fill-amber-800"
+                  className="text-xs font-black fill-[#5b839d]"
                   style={{ fontSize: '12px' }}
                 >
                   {ability.name}
@@ -132,7 +127,11 @@ const BrainDevelopment = memo(function BrainDevelopment() {
               ))}
             </svg>
           </div>
+
+          <div></div>
         </div>
+
+        <Image src="/upimg/9.jpg" alt="그래프 이미지" className='hidden max-md:block max-md:w-full'/>
       </Container>
     </Section>
   );

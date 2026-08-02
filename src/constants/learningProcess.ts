@@ -11,6 +11,7 @@ export const LEARNING_STEPS: LearningStep[] = [
       '원장님과 직접 대국하며 아이의 실력과 성향을 파악',
       '처음 바둑을 배우는 아이도 부담 없이 참여 가능',
     ],
+    image:'6-1.jpg',
   },
   {
     step: 2,
@@ -22,16 +23,18 @@ export const LEARNING_STEPS: LearningStep[] = [
       '선수 자격증 취득 가능 시기',
       '아이의 수업 모습을 바탕으로 맞춤 피드백 제공',
     ],
+    image:'6-2.jpg',
   },
   {
     step: 3,
     title: '맞춤 반 배정',
-    description: '아이에게 중요한 기준을 우선순위로 반영해 반 추천',
+    description: '아이에게 중요한 기준을 우선순위로 반영한 반배정',
     details: [
       '1순위 · 실력',
       '2순위 · 나이 및 또래 구성',
       '3순위 · 성향 및 학습 스타일',
       '아이의 성장 속도에 맞춰 가장 적합한 반으로 배정합니다.',
     ],
+    image:'6-3.jpg',
   },
 ];

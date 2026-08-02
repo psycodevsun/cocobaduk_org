@@ -5,12 +5,12 @@ import { REVIEWS } from '@/constants';
 const Reviews = memo(function Reviews() {
   return (
     <section id="reviews" aria-labelledby="reviews-title">
-      <div className="pt-20 mx-auto px-6 lg:px-8 bg-primary-surface">
-        <div className="text-center mb-12">
-          <h2 id="reviews-title" className="text-3xl md:text-4xl font-bold mb-2 tracking-title">
+      <div className="pt-20 mx-auto px-6 lg:px-8 bg-primary-surface max-md:pt-14">
+        <div className="text-center mb-12 md:mb-4">
+          <h2 id="reviews-title" className="text-3xl md:text-4xl font-bold mb-0 max-md:mb-1">
             수강 학부모 후기
           </h2>
-          <p className="text-xl lg:text-lg text-normal tracking-body">
+          <p className="text-lg mt-1 max-md:text-base text-normal tracking-tight">
             코코바둑을 직접 경험한 학부모님의 솔직한 후기입니다
           </p>
         </div>
@@ -27,7 +27,7 @@ const Reviews = memo(function Reviews() {
       </div>
 
       <div className="pb-20 max-w-7xl mx-auto px-6 lg:px-8 bg-white">
-        <Container size="narrow">
+        <Container size="narrow" className='max-md:px-0'>
           <Grid cols={3} gap="default">
             {REVIEWS.map((review) => (
               <Card key={review.id} variant="default" hover className="bg-gray-50">
@@ -44,7 +44,7 @@ const Reviews = memo(function Reviews() {
                         <Icon key={i} name="ri-star-fill" size="default" />
                       ))}
                     </div>
-                    <span className="text-sm text-gray-600">수강생 학부모</span>
+                    <span className="text-sm text-gray-600">{review.writer} 학부모</span>
                   </div>
                 </div>
                 <p className="text-gray-700 leading-relaxed">"{review.comment}"</p>
